@@ -24,7 +24,7 @@ class DataFile < ActiveRecord::Base
 	tempfile.puts upload['datafile'].read
 	
 	# Exract Tag Data
-	#song_tags = extract_mp3_tags( tempfile.path )
+	song_tags = extract_mp3_tags( tempfile.path )
 	
 	# Upload to ftp server
 	upload_to_ftp( tempfile.path , name )

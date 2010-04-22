@@ -3282,3 +3282,87 @@ Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:25:20) 
 Rendering template within layouts/songs
 Rendering songs/view_playlist
 Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:34:32) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 27ms (View: 18, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:34:50) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 342ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:34:54) [POST]
+  Parameters: {"commit"=>"Upload"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:20:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (58.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:35:05) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-1367hpi-0>}}
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NameError (undefined local variable or method `song_tags' for DataFile(Table doesn't exist):Class):
+  app/models/data_file.rb:34:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:36:24) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-1h2pyi3-0>}}
+  [4;36;1mSong Create (0.7ms)[0m   [0;1mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Cloud Cult', '2010-04-22 05:36:53', 'Must Explore', '2010-04-22 05:36:53', 'Feel Good Ghosts (Tea-Partying Through Tornadoes)', 'http://www.allweapons.net/musicthing/explore.mp3')[0m
+Redirected to http://localhost:3000/
+Completed in 28679ms (DB: 1) | 302 Found [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:36:53) [GET]
+  [4;35;1mSong Load (1.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-22 00:36:59) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:36:59) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-22 00:37:03) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:37:03) [GET]
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 17ms (View: 3, DB: 1) | 200 OK [http://localhost/]
