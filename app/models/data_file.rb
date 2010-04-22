@@ -24,18 +24,18 @@ class DataFile < ActiveRecord::Base
 	tempfile.puts upload['datafile'].read
 	
 	# Exract Tag Data
-	song_tags = extract_mp3_tags( tempfile.path )
+	#song_tags = extract_mp3_tags( tempfile.path )
 	
 	# Upload to ftp server
 	upload_to_ftp( tempfile.path , name )
 	
 	# Add database entry
-	@song = Song.new()
-	@song.title = song_tags.title
-	@song.artist = song_tags.artist
-	@song.album = song_tags.album
-	@song.filename = "http://www.allweapons.net/musicthing/#{name}"
-	@song.save
+	#@song = Song.new()
+	#@song.title = song_tags.title
+	#@song.artist = song_tags.artist
+	#@song.album = song_tags.album
+	#@song.filename = "http://www.allweapons.net/musicthing/#{name}"
+	#@song.save
 	
 	# Clean up
 	tempfile.close
