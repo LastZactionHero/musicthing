@@ -57,11 +57,8 @@ class DataFile < ActiveRecord::Base
     puts ftp.login( 'zdicklin', 'foxForce5' )
     puts ftp.chdir( 'musicthing' )
 	
-	count = 0
-	puts ftp.putbinaryfile( input_filename, output_filename, 100000 ) do |block|
-	  count += 100000
-	  puts "Bytes Uploaded: #{count}"
-	end
+	#count = 0
+	#puts ftp.putbinaryfile( input_filename, output_filename )
 	
     puts ftp.close
 	
