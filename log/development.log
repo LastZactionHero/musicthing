@@ -1,0 +1,2903 @@
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:15:03) [GET]
+  [4;36;1mSong Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: songs: SELECT * FROM "songs" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: songs: SELECT * FROM "songs" ):
+  app/controllers/songs_controller.rb:5:in `index'
+
+Rendered rescues/_trace (66.1ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:15:06) [GET]
+  [4;35;1mSong Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: songs: SELECT * FROM "songs" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: songs: SELECT * FROM "songs" ):
+  app/controllers/songs_controller.rb:5:in `index'
+
+Rendered rescues/_trace (61.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (7.2ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateSongs (20100420030114)
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "songs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "artist" varchar(255), "album" varchar(255), "filename" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100420030114')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("songs")[0m
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:15:39) [GET]
+  [4;36;1mSong Load (0.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 127ms (View: 121, DB: 0) | 200 OK [http://localhost/songs/]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-19 22:15:42) [GET]
+  Parameters: {"id"=>"viewplaylist"}
+  [4;35;1mSong Load (0.2ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=viewplaylist):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (53.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-19 22:17:03) [GET]
+  Parameters: {"id"=>"viewplaylist"}
+  [4;36;1mSong Load (0.2ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=viewplaylist):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (53.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:17:47) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:18:48) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:21:04) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:21:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/window.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:21:11) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:21:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/window.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:21:22) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:21:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/window.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:21:22) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:21:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/window.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:21:44) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:21:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/window.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:22:25) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:22:38) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:23:03) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:23:11) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:23:16) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:23:23) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:24:57) [GET]
+  [4;35;1mSong Load (0.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 65ms (View: 2, DB: 0) | 200 OK [http://localhost/songs/]
+
+
+Processing SongsController#new (for 127.0.0.1 at 2010-04-19 22:24:59) [GET]
+Rendering template within layouts/songs
+Rendering songs/new
+Completed in 23ms (View: 16, DB: 0) | 200 OK [http://localhost/songs/new]
+
+
+Processing SongsController#create (for 127.0.0.1 at 2010-04-19 22:25:10) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"T0c7FdIvJ33vlE+boB6pP48c35m379tiyMl/+tNacP8=", "song"=>{"artist"=>"Artist 1", "title"=>"Song 1", "album"=>"Album 1", "filename"=>"file1.mp3"}}
+  [4;36;1mSong Create (78.5ms)[0m   [0;1mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Artist 1', '2010-04-20 03:25:10', 'Song 1', '2010-04-20 03:25:10', 'Album 1', 'file1.mp3')[0m
+Redirected to http://localhost:3000/songs/1
+Completed in 97ms (DB: 79) | 302 Found [http://localhost/songs]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-19 22:25:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSong Load (0.3ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 1) [0m
+Rendering template within layouts/songs
+Rendering songs/show
+Completed in 28ms (View: 21, DB: 0) | 200 OK [http://localhost/songs/1]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:25:12) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#new (for 127.0.0.1 at 2010-04-19 22:25:13) [GET]
+Rendering template within layouts/songs
+Rendering songs/new
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/songs/new]
+
+
+Processing SongsController#create (for 127.0.0.1 at 2010-04-19 22:25:23) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"T0c7FdIvJ33vlE+boB6pP48c35m379tiyMl/+tNacP8=", "song"=>{"artist"=>"Artist 2", "title"=>"Song 2", "album"=>"Album 2", "filename"=>"File2.mp3"}}
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Artist 2', '2010-04-20 03:25:23', 'Song 2', '2010-04-20 03:25:23', 'Album 2', 'File2.mp3')[0m
+Redirected to http://localhost:3000/songs/2
+Completed in 17ms (DB: 1) | 302 Found [http://localhost/songs]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-19 22:25:23) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSong Load (0.3ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 2) [0m
+Rendering template within layouts/songs
+Rendering songs/show
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/songs/2]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:25:24) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 21ms (View: 13, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:25:28) [GET]
+
+NameError (uninitialized constant SongsController::Songs):
+  app/controllers/songs_controller.rb:87:in `view_playlist'
+
+Rendered rescues/_trace (51.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:25:31) [GET]
+
+NameError (uninitialized constant SongsController::Songs):
+  app/controllers/songs_controller.rb:87:in `view_playlist'
+
+Rendered rescues/_trace (54.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:25:41) [GET]
+
+NameError (uninitialized constant SongsController::Songs):
+  app/controllers/songs_controller.rb:87:in `view_playlist'
+
+Rendered rescues/_trace (51.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:25:52) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 8ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:27:32) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+
+ActionView::TemplateError (undefined method `name' for #<Song:0x2c6a12c>) on line #17 of app/views/songs/view_playlist.erb:
+14: 					<img src="images/albumart.jpg">
+15: 				</div>
+16: 				<div class="track_text_box"	>
+17: 					<strong><%= "#{song.name}" %> - <%= "#{song.artist}" %> - <%= "#{song.album}" %></strong><br>
+18: 					Submitter Name
+19: 				</div>
+20: 			</div>		
+
+    app/views/songs/view_playlist.erb:17
+    app/views/songs/view_playlist.erb:11:in `each'
+    app/views/songs/view_playlist.erb:11
+
+Rendered rescues/_trace (63.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:27:38) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 23ms (View: 15, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:28:06) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:29:27) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:29:55) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:30:46) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:32:52) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:32:53) [GET]
+
+ActionController::RoutingError (No route matches "/The%20URL%20of%20your%20Media%20file" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:33:07) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:33:07) [GET]
+
+ActionController::RoutingError (No route matches "/The%20URL%20of%20your%20Media%20file" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:33:08) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:33:08) [GET]
+
+ActionController::RoutingError (No route matches "/The%20URL%20of%20your%20Media%20file" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:33:09) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:33:09) [GET]
+
+ActionController::RoutingError (No route matches "/The%20URL%20of%20your%20Media%20file" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:36:04) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 20ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:36:28) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:36:42) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+
+
+Processing ActionController::Base#view_playlist (for 127.0.0.1 at 2010-04-19 22:37:51) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/application_controller.rb:8
+  app/controllers/songs_controller.rb:1
+
+Rendered rescues/_trace (54.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+
+
+Processing ActionController::Base#view_playlist (for 127.0.0.1 at 2010-04-19 22:37:58) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/application_controller.rb:8
+  app/controllers/songs_controller.rb:1
+
+Rendered rescues/_trace (133.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+
+
+Processing ActionController::Base#view_playlist (for 127.0.0.1 at 2010-04-19 22:38:10) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/application_controller.rb:8
+  app/controllers/songs_controller.rb:1
+
+Rendered rescues/_trace (55.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+
+
+Processing ActionController::Base#view_playlist (for 127.0.0.1 at 2010-04-19 22:38:18) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/application_controller.rb:8
+  app/controllers/songs_controller.rb:1
+
+Rendered rescues/_trace (54.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /Users/zachdicklin/www/musicthing0.1/app/controllers/application_controller.rb:8)
+
+
+Processing ActionController::Base#view_playlist (for 127.0.0.1 at 2010-04-19 22:38:30) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/application_controller.rb:8
+  app/controllers/songs_controller.rb:1
+
+Rendered rescues/_trace (145.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#view_playlist (for 127.0.0.1 at 2010-04-19 22:38:51) [GET]
+
+NameError (undefined local variable or method `sessions' for ApplicationController:Class):
+  app/controllers/application_controller.rb:8
+  app/controllers/songs_controller.rb:1
+
+Rendered rescues/_trace (55.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:39:57) [GET]
+
+NameError (undefined local variable or method `sessions' for #<SongsController:0x2d34800>):
+  app/controllers/application_controller.rb:10:in `playlist_setup'
+
+Rendered rescues/_trace (52.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:40:08) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:41:17) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:42:59) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#view_playlist (for 127.0.0.1 at 2010-04-19 22:45:36) [GET]
+
+SyntaxError (/Users/zachdicklin/www/musicthing0.1/app/controllers/songs_controller.rb:92: odd number list for Hash
+/Users/zachdicklin/www/musicthing0.1/app/controllers/songs_controller.rb:96: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (47.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:45:50) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+
+NoMethodError (undefined method `filename' for #<Array:0x2cee2d8>):
+  app/controllers/songs_controller.rb:91:in `view_playlist'
+
+Rendered rescues/_trace (130.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:46:04) [GET]
+
+ActionController::RoutingError (No route matches "/song" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:46:06) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 20ms (View: 13, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:46:49) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+
+ActionView::TemplateError (undefined local variable or method `current_track_filename' for #<ActionView::Base:0x2dbca70>) on line #42 of app/views/songs/view_playlist.erb:
+39: 	classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" 
+40: 	codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+41: 	
+42: 	<%= "<embed src=\"#{current_track_filename}\" width=\"290\" height=\"20\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" %>
+43: </object>
+44: 
+45: </div>
+
+    app/views/songs/view_playlist.erb:42
+
+Rendered rescues/_trace (61.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:47:01) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+
+ActionView::TemplateError (undefined local variable or method `current_track_filename' for #<ActionView::Base:0x2c4f96c>) on line #42 of app/views/songs/view_playlist.erb:
+39: 	classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" 
+40: 	codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+41: 	
+42: 	<%= "<embed src=\"#{current_track_filename}\" width=\"290\" height=\"20\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" %>
+43: </object>
+44: 
+45: </div>
+
+    app/views/songs/view_playlist.erb:42
+
+Rendered rescues/_trace (155.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:47:12) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+
+ActionView::TemplateError (undefined local variable or method `current_track_filename' for #<ActionView::Base:0x2dc8b90>) on line #42 of app/views/songs/view_playlist.erb:
+39: 	classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" 
+40: 	codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+41: 	
+42: 	<%= "<embed src=\"#{current_track_filename}\" width=\"290\" height=\"20\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" %>
+43: </object>
+44: 
+45: </div>
+
+    app/views/songs/view_playlist.erb:42
+
+Rendered rescues/_trace (65.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:47:24) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+
+ActionView::TemplateError (undefined local variable or method `current_track_filename' for #<ActionView::Base:0x2c76ddc>) on line #42 of app/views/songs/view_playlist.erb:
+39: 	classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" 
+40: 	codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+41: 	
+42: 	<%= "<embed src=\"#{current_track_filename}\" width=\"290\" height=\"20\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" %>
+43: </object>
+44: 
+45: </div>
+
+    app/views/songs/view_playlist.erb:42
+
+Rendered rescues/_trace (156.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:47:31) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+
+NoMethodError (undefined method `var' for #<SongsController:0x2db8c7c>):
+  app/controllers/songs_controller.rb:89:in `view_playlist'
+
+Rendered rescues/_trace (50.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:47:41) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+
+ActionView::TemplateError (undefined local variable or method `current_track_filename' for #<ActionView::Base:0x2ccd63c>) on line #42 of app/views/songs/view_playlist.erb:
+39: 	classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" 
+40: 	codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+41: 	
+42: 	<%= "<embed src=\"#{current_track_filename}\" width=\"290\" height=\"20\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" %>
+43: </object>
+44: 
+45: </div>
+
+    app/views/songs/view_playlist.erb:42
+
+Rendered rescues/_trace (161.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:48:02) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+
+ActionView::TemplateError (undefined local variable or method `current_track_filename' for #<ActionView::Base:0x2e06e90>) on line #42 of app/views/songs/view_playlist.erb:
+39: 	classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" 
+40: 	codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+41: 	
+42: 	<%= "<embed src=\"#{current_track_filename}\" width=\"290\" height=\"20\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" %>
+43: </object>
+44: 
+45: </div>
+
+    app/views/songs/view_playlist.erb:42
+
+Rendered rescues/_trace (62.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:48:30) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:48:44) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:48:45) [GET]
+
+ActionController::RoutingError (No route matches "/music/file1.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:49:31) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:50:41) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:51:43) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 20ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:54:28) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:55:16) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:55:17) [GET]
+
+ActionController::RoutingError (No route matches "/2" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:55:46) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:55:48) [GET]
+
+ActionController::RoutingError (No route matches "/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#new (for 127.0.0.1 at 2010-04-19 22:55:51) [GET]
+Rendering template within layouts/songs
+Rendering songs/new
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/songs/new]
+
+
+Processing SongsController#create (for 127.0.0.1 at 2010-04-19 22:56:10) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"XGvR5QMYfMi0+odIk03z3IZJi/9dqqLGURauocHM7uE=", "song"=>{"artist"=>"Artist 3", "title"=>"Song 3", "album"=>"Album 3", "filename"=>"song3.mp3"}}
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Artist 3', '2010-04-20 03:56:10', 'Song 3', '2010-04-20 03:56:10', 'Album 3', 'song3.mp3')[0m
+Redirected to http://localhost:3000/songs/3
+Completed in 68ms (DB: 1) | 302 Found [http://localhost/songs]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-19 22:56:10) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSong Load (0.3ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 3) [0m
+Rendering template within layouts/songs
+Rendering songs/show
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/songs/3]
+
+
+Processing SongsController#edit (for 127.0.0.1 at 2010-04-19 22:56:18) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSong Load (0.4ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 3) [0m
+Rendering template within layouts/songs
+Rendering songs/edit
+Completed in 31ms (View: 23, DB: 0) | 200 OK [http://localhost/songs/3/edit]
+
+
+Processing SongsController#update (for 127.0.0.1 at 2010-04-19 22:56:23) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"XGvR5QMYfMi0+odIk03z3IZJi/9dqqLGURauocHM7uE=", "id"=>"3", "song"=>{"artist"=>"Artist 3", "title"=>"Song 3", "album"=>"Album 3", "filename"=>"file3.mp3"}}
+  [4;35;1mSong Load (0.3ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 3) [0m
+  [4;36;1mSong Update (0.5ms)[0m   [0;1mUPDATE "songs" SET "updated_at" = '2010-04-20 03:56:23', "filename" = 'file3.mp3' WHERE "id" = 3[0m
+Redirected to http://localhost:3000/songs/3
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/songs/3]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-19 22:56:23) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSong Load (0.3ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 3) [0m
+Rendering template within layouts/songs
+Rendering songs/show
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/songs/3]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:56:25) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 25ms (View: 18, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:56:30) [GET]
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#destroy (for 127.0.0.1 at 2010-04-19 22:56:35) [DELETE]
+  Parameters: {"authenticity_token"=>"XGvR5QMYfMi0+odIk03z3IZJi/9dqqLGURauocHM7uE=", "id"=>"2"}
+  [4;36;1mSong Load (0.4ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 2) [0m
+  [4;35;1mSong Destroy (0.4ms)[0m   [0mDELETE FROM "songs" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/songs
+Completed in 25ms (DB: 1) | 302 Found [http://localhost/songs/2]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 22:56:35) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 21ms (View: 14, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:56:38) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:56:40) [GET]
+
+ActionController::RoutingError (No route matches "/3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:57:25) [GET]
+
+ActionController::RoutingError (No route matches "/3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:57:26) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 20ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:57:29) [GET]
+
+ActionController::RoutingError (No route matches "/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:57:30) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:57:32) [GET]
+
+ActionController::RoutingError (No route matches "/0" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 22:59:48) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 110ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 22:59:50) [GET]
+
+ActionController::RoutingError (No route matches "/set_track/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:00:52) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:00:52) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+
+ArgumentError (comparison of String with 0 failed):
+  app/controllers/songs_controller.rb:90:in `>='
+  app/controllers/songs_controller.rb:90:in `view_playlist'
+
+Rendered rescues/_trace (52.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:01:51) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:01:51) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:01:54) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:01:54) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:01:56) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:01:56) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:03:17) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:03:17) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 31ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:03:18) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:03:18) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:03:19) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:03:19) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 17ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:03:38) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:03:38) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:17) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:04:17) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:18) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 115ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:04:18) [GET]
+  [4;36;1mSong Load (2.6ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 31ms (View: 7, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:19) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:04:19) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 26ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:20) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:04:20) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:32) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:04:32) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:32) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:04:33) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:54) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:54) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:04:54) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:55) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:04:55) [GET]
+  [4;36;1mSong Load (1.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 17ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:04:56) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:04:56) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 32ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:05:13) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:05:13) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 103ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:05:14) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:05:14) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:05:30) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:05:30) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:05:46) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 78ms (View: 68, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:05:48) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:05:48) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:06:21) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:06:35) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:06:35) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:06:39) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:06:39) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:06:52) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:06:52) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:07:35) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:07:35) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:07:36) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:07:36) [GET]
+  [4;35;1mSong Load (1.2ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 28ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:07:36) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:07:36) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:07:47) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 276ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-19 23:07:58) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 73ms (View: 65, DB: 1) | 200 OK [http://localhost/songs/]
+
+
+Processing SongsController#new (for 127.0.0.1 at 2010-04-19 23:08:00) [GET]
+Rendering template within layouts/songs
+Rendering songs/new
+Completed in 22ms (View: 15, DB: 0) | 200 OK [http://localhost/songs/new]
+
+
+Processing SongsController#create (for 127.0.0.1 at 2010-04-19 23:08:10) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"UaU0GZAf/euHAe18LLPUTbPZCrx8YvotEw0LzC6jbhw=", "song"=>{"artist"=>"Artist 4", "title"=>"Song 4", "album"=>"Album 4", "filename"=>"file4.mp3"}}
+  [4;35;1mSong Create (0.7ms)[0m   [0mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Artist 4', '2010-04-20 04:08:10', 'Song 4', '2010-04-20 04:08:10', 'Album 4', 'file4.mp3')[0m
+Redirected to http://localhost:3000/songs/4
+Completed in 63ms (DB: 1) | 302 Found [http://localhost/songs]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-19 23:08:10) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mSong Load (0.3ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 4) [0m
+Rendering template within layouts/songs
+Rendering songs/show
+Completed in 32ms (View: 24, DB: 0) | 200 OK [http://localhost/songs/4]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:08:13) [GET]
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:08:14) [GET]
+  Parameters: {"id"=>"2"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/2]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:08:14) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 23:08:14) [GET]
+
+ActionController::RoutingError (No route matches "/music/file4.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:08:31) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:08:37) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:08:37) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:08:38) [GET]
+  Parameters: {"id"=>"2"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/2]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:08:38) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 23:08:38) [GET]
+
+ActionController::RoutingError (No route matches "/music/file4.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:51:03) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 36ms (View: 19, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:51:15) [POST]
+  Parameters: {"file_name"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100419-1521-xkjl9w-0>}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (55.9ms)
+Rendered rescues/_request_and_response (3.6ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:51:20) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:51:53) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 23:51:58) [POST]
+  Parameters: {"file_name"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100419-1521-qwtbxg-0>}
+
+ActionController::RoutingError (No route matches "/upload/" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:52:25) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:52:26) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 23:52:28) [POST]
+
+ActionController::RoutingError (No route matches "/upload/" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:52:29) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 23:52:36) [POST]
+  Parameters: {"file_name"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100419-1521-1tjmbnd-0>}
+
+ActionController::RoutingError (No route matches "/upload/" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:53:54) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload (for 127.0.0.1 at 2010-04-19 23:53:57) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (54.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:54:09) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload (for 127.0.0.1 at 2010-04-19 23:54:12) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (142.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:54:48) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:54:50) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload (for 127.0.0.1 at 2010-04-19 23:54:52) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (55.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SongsController#upload (for 127.0.0.1 at 2010-04-19 23:55:27) [GET]
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/upload/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:55:27) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 31ms (View: 21, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload (for 127.0.0.1 at 2010-04-19 23:55:29) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (56.1ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:55:37) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (53.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:55:40) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:55:41) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:55:42) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:55:42) [GET]
+  [4;35;1mSong Load (1.6ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 4, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:55:44) [GET]
+  Parameters: {"id"=>"2"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/2]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:55:44) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-19 23:55:44) [GET]
+
+ActionController::RoutingError (No route matches "/music/file4.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-19 23:55:46) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:55:46) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload (for 127.0.0.1 at 2010-04-19 23:55:47) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (135.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing SongsController#upload (for 127.0.0.1 at 2010-04-19 23:56:39) [POST]
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/upload/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:56:39) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload (for 127.0.0.1 at 2010-04-19 23:56:42) [POST]
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/upload/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-19 23:56:42) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-20 01:33:49) [GET]
+  [4;36;1mSong Load (1.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 117ms (View: 56, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 21:32:38) [GET]
+  [4;36;1mSong Load (1.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 141ms (View: 91, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-21 21:32:43) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/1]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 21:32:43) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload (for 127.0.0.1 at 2010-04-21 21:43:29) [GET]
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/upload/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 21:43:29) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 21:44:10) [GET]
+Rendering upload/index
+
+ActionView::TemplateError (undefined method `start_form_tag' for #<ActionView::Base:0x2cd7b3c>) on line #2 of app/views/upload/index.html.erb:
+1: <h1>File Upload</h1>
+2: <%= start_form_tag ({:action => 'uploadFile'}, :multipart => true) %>
+3: <p><label for="upload_file">Select File</label> : 
+4: <%= file_field 'upload', 'datafile' %></p>
+5: <%= submit_tag "Upload" %>
+
+    app/views/upload/index.html.erb:2
+
+Rendered rescues/_trace (141.7ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 21:45:07) [GET]
+Rendering upload/index
+ERROR: compiling _run_erb_app47views47upload47index46html46erb RAISED compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:6: syntax error, unexpected kEND
+; @output_buffer.concat(( end ).to_s); @output_buffer
+                             ^
+Function body:           def _run_erb_app47views47upload47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+; @output_buffer.concat(( form_tag ({:action => 'uploadFile'}, :multipart => true) ).to_s); @output_buffer.concat "\n<p><label for=\"upload_file\">Select File</label> : \n"
+
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( end ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:9:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:6: syntax error, unexpected kEND
+; @output_buffer.concat(( end ).to_s); @output_buffer
+                             ^) on line #6 of app/views/upload/index.html.erb:
+3: <p><label for="upload_file">Select File</label> : 
+4: <%= file_field 'upload', 'datafile' %></p>
+5: <%= submit_tag "Upload" %>
+6: <%= end %>
+
+    app/views/upload/index.html.erb:9:in `compile!'
+
+Rendered rescues/_trace (60.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 21:45:16) [GET]
+Rendering upload/index
+ERROR: compiling _run_erb_app47views47upload47index46html46erb RAISED compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:7: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47upload47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+;  form_tag ({:action => 'uploadFile'}, :multipart => true) ; @output_buffer.concat "\n<p><label for=\"upload_file\">Select File</label> : \n"
+
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat "</p>\n"
+; @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n"
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:7:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:7: syntax error, unexpected kENSURE, expecting $end) on line #7 of app/views/upload/index.html.erb:
+4: <%= file_field 'upload', 'datafile' %></p>
+5: <%= submit_tag "Upload" %>
+6: <% end %>
+
+    app/views/upload/index.html.erb:7:in `compile!'
+
+Rendered rescues/_trace (155.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 21:46:01) [GET]
+Rendering upload/index
+ERROR: compiling _run_erb_app47views47upload47index46html46erb RAISED compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:5: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47upload47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+;  form_tag ({:action => 'uploadFile'}, :multipart => true) ; @output_buffer.concat "\n\n"
+
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:5:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:5: syntax error, unexpected kENSURE, expecting $end) on line #5 of app/views/upload/index.html.erb:
+2: <% form_tag ({:action => 'uploadFile'}, :multipart => true) %>
+3: 
+4: <% end %>
+
+    app/views/upload/index.html.erb:5:in `compile!'
+
+Rendered rescues/_trace (59.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 21:46:38) [GET]
+Rendering upload/index
+ERROR: compiling _run_erb_app47views47upload47index46html46erb RAISED compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:5: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47upload47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n"
+; @output_buffer.concat(( form_tag ({:action => 'uploadFile'}, :multipart => true) ).to_s); @output_buffer.concat "\n\n"
+
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:5:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:5: syntax error, unexpected kENSURE, expecting $end) on line #5 of app/views/upload/index.html.erb:
+2: <%= form_tag ({:action => 'uploadFile'}, :multipart => true) %>
+3: 
+4: <% end %>
+
+    app/views/upload/index.html.erb:5:in `compile!'
+
+Rendered rescues/_trace (59.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 21:48:31) [GET]
+Rendering upload/index
+ERROR: compiling _run_erb_app47views47upload47index46html46erb RAISED compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:6: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47upload47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>File Upload</h1>\n\n"
+
+;  form_tag ; @output_buffer.concat "\n\n"
+
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:6:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/upload/index.html.erb:6: syntax error, unexpected kENSURE, expecting $end) on line #6 of app/views/upload/index.html.erb:
+3: <% form_tag %>
+4: 
+5: <% end %>
+
+    app/views/upload/index.html.erb:6:in `compile!'
+
+Rendered rescues/_trace (59.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 21:49:26) [GET]
+Rendering upload/index
+Completed in 105ms (View: 102, DB: 0) | 200 OK [http://localhost/upload/]
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 21:49:46) [GET]
+Rendering upload/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/upload/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 21:50:55) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100421-2837-15wlouh-0>}}
+
+ActionController::RoutingError (No route matches "/uploadFile" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 21:51:24) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100421-2837-e91u0v-0>}}
+
+ActionController::RoutingError (No route matches "/uploadFile" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 21:51:42) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100421-2837-1ehwf0p-0>}}
+
+ActionController::RoutingError (No route matches "/uploadFile" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 21:51:48) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100421-2837-dtuuty-0>}}
+
+ActionController::RoutingError (No route matches "/uploadFile" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 21:51:57) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100421-2956-1yyw0a-0>}}
+
+ActionController::RoutingError (No route matches "/uploadFile" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 21:52:04) [GET]
+Rendering upload/index
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/upload/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 21:52:09) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100421-2956-iu5imy-0>}}
+
+Errno::ENOENT (No such file or directory - public/music/testfile.txt):
+  app/models/data_file.rb:11:in `initialize'
+  app/models/data_file.rb:11:in `open'
+  app/models/data_file.rb:11:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (55.2ms)
+Rendered rescues/_request_and_response (2.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 22:02:31) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/var/folders/+b/+b4bKI1-FkeomzBTxQGk5++++TI/-Tmp-/RackMultipart20100421-2956-1sc40i3-0>}}
+Rendering upload/uploadFile
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 22:03:22) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-2980-ghvol6-0>}}
+Rendering upload/uploadFile
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 22:03:57) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-2980-e98bu0-0>}}
+Rendering upload/uploadFile
+Completed in 73ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 22:49:34) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 236ms (View: 113, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 22:50:22) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#create (for 127.0.0.1 at 2010-04-21 22:50:25) [POST]
+
+ActionController::UnknownAction (No action responded to create. Actions: index, playlist_setup, and uploadFile):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 22:50:27) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 22:50:30) [GET]
+Rendering upload/index
+Completed in 619ms (View: 617, DB: 0) | 200 OK [http://localhost/upload/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 22:50:38) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-2980-141nukm-0>}}
+
+TypeError (can't convert Tempfile into String):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/ftp.rb:546:in `basename'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/ftp.rb:546:in `putbinaryfile'
+  app/models/data_file.rb:29:in `upload_to_ftp'
+  app/models/data_file.rb:17:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (58.9ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 22:51:06) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-2980-1u7ke5p-0>}}
+Rendering upload/uploadFile
+Completed in 2916ms (View: 2, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 22:51:47) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-2980-12zbqrx-0>}}
+Rendering upload/uploadFile
+Completed in 3381ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:02:27) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 23:02:30) [GET]
+Rendering upload/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/upload/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 23:02:35) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-2980-m8mmf9-0>}}
+
+MissingSourceFile (no such file to load -- mp3info):
+  app/models/data_file.rb:2
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (63.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 23:03:24) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-2980-bz2ctm-0>}}
+
+MissingSourceFile (no such file to load -- Mp3Info):
+  app/models/data_file.rb:2
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (109.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 23:04:05) [GET]
+Rendering upload/index
+Completed in 34ms (View: 31, DB: 0) | 200 OK [http://localhost/upload]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 23:04:09) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-3204-t4evh8-0>}}
+Rendering upload/uploadFile
+Completed in 195ms (View: 7, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 23:06:36) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-3204-1wip4c8-0>}}
+Rendering upload/uploadFile
+Completed in 125ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 23:07:22) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-3204-7rqx2l-0>}}
+Rendering upload/uploadFile
+Completed in 121ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 23:09:41) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-3204-dh0ixa-0>}}
+  [4;36;1mSong Create (21.2ms)[0m   [0;1mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Band Of Skulls', '2010-04-22 04:09:41', 'Light Of The Morning', '2010-04-22 04:09:41', 'Baby Darling Doll Face Honey', NULL)[0m
+Rendering upload/uploadFile
+Completed in 519ms (View: 1, DB: 21) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:09:45) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 64ms (View: 56, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 23:10:21) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-3204-e1xn62-0>}}
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Band Of Skulls', '2010-04-22 04:10:21', 'Light Of The Morning', '2010-04-22 04:10:21', 'Baby Darling Doll Face Honey', 'http://www.allweapons.net/musicthing/name')[0m
+Rendering upload/uploadFile
+Completed in 137ms (View: 1, DB: 1) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:10:24) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 27ms (View: 19, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 23:10:39) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-3204-14gt3f0-0>}}
+  [4;36;1mSong Create (0.6ms)[0m   [0;1mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Band Of Skulls', '2010-04-22 04:10:39', 'Light Of The Morning', '2010-04-22 04:10:39', 'Baby Darling Doll Face Honey', 'http://www.allweapons.net/musicthing/song.mp3')[0m
+Rendering upload/uploadFile
+Completed in 135ms (View: 1, DB: 1) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:11:04) [GET]
+  [4;35;1mSong Load (1.4ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 32ms (View: 23, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#destroy (for 127.0.0.1 at 2010-04-21 23:11:07) [DELETE]
+  Parameters: {"id"=>"7"}
+  [4;36;1mSong Load (0.5ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 7) [0m
+  [4;35;1mSong Destroy (0.4ms)[0m   [0mDELETE FROM "songs" WHERE "id" = 7[0m
+Redirected to http://localhost:3000/songs
+Completed in 67ms (DB: 1) | 302 Found [http://localhost/songs/7]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:11:07) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 30ms (View: 23, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#destroy (for 127.0.0.1 at 2010-04-21 23:11:09) [DELETE]
+  Parameters: {"id"=>"6"}
+  [4;35;1mSong Load (0.4ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 6) [0m
+  [4;36;1mSong Destroy (0.4ms)[0m   [0;1mDELETE FROM "songs" WHERE "id" = 6[0m
+Redirected to http://localhost:3000/songs
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/songs/6]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:11:09) [GET]
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 94ms (View: 87, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#destroy (for 127.0.0.1 at 2010-04-21 23:11:11) [DELETE]
+  Parameters: {"id"=>"5"}
+  [4;36;1mSong Load (0.3ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 5) [0m
+  [4;35;1mSong Destroy (0.4ms)[0m   [0mDELETE FROM "songs" WHERE "id" = 5[0m
+Redirected to http://localhost:3000/songs
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/songs/5]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:11:11) [GET]
+  [4;36;1mSong Load (3.3ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 38ms (View: 24, DB: 3) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#destroy (for 127.0.0.1 at 2010-04-21 23:11:14) [DELETE]
+  Parameters: {"id"=>"4"}
+  [4;35;1mSong Load (0.3ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 4) [0m
+  [4;36;1mSong Destroy (0.4ms)[0m   [0;1mDELETE FROM "songs" WHERE "id" = 4[0m
+Redirected to http://localhost:3000/songs
+Completed in 145ms (DB: 1) | 302 Found [http://localhost/songs/4]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:11:14) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 25ms (View: 18, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#destroy (for 127.0.0.1 at 2010-04-21 23:11:16) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSong Load (0.4ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 3) [0m
+  [4;35;1mSong Destroy (0.9ms)[0m   [0mDELETE FROM "songs" WHERE "id" = 3[0m
+Redirected to http://localhost:3000/songs
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/songs/3]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:11:16) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#destroy (for 127.0.0.1 at 2010-04-21 23:11:18) [DELETE]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSong Load (0.5ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 1) [0m
+  [4;36;1mSong Destroy (0.6ms)[0m   [0;1mDELETE FROM "songs" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/songs
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/songs/1]
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:11:18) [GET]
+  [4;35;1mSong Load (2.3ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 11ms (View: 2, DB: 2) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:11:50) [GET]
+  [4;36;1mSong Load (0.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-04-21 23:11:59) [GET]
+Rendering upload/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/upload/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-21 23:13:32) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100421-3204-11bqx2y-0>}}
+  [4;35;1mSong Create (12.3ms)[0m   [0mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Mos Def', '2010-04-22 04:21:35', 'Supermagic', '2010-04-22 04:21:35', 'The Ecstatic', 'http://www.allweapons.net/musicthing/01 - Supermagic.mp3')[0m
+Rendering upload/uploadFile
+Completed in 482963ms (View: 31, DB: 12) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:21:35) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:21:35) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:21:35) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:21:35) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:22:17) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 23:22:17) [GET]
+
+ActionController::RoutingError (No route matches "/music/http://www.allweapons.net/musicthing/01%20-%20Supermagic.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-21 23:22:19) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:22:19) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 23:22:19) [GET]
+
+ActionController::RoutingError (No route matches "/music/http://www.allweapons.net/musicthing/01%20-%20Supermagic.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-21 23:22:24) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:22:24) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 23:22:24) [GET]
+
+ActionController::RoutingError (No route matches "/music/http://www.allweapons.net/musicthing/01%20-%20Supermagic.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-21 23:23:07) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/songs]
+
+
+Processing SongsController#edit (for 127.0.0.1 at 2010-04-21 23:23:09) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mSong Load (0.4ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 8) [0m
+Rendering template within layouts/songs
+Rendering songs/edit
+Completed in 105ms (View: 96, DB: 0) | 200 OK [http://localhost/songs/8/edit]
+
+
+Processing SongsController#update (for 127.0.0.1 at 2010-04-21 23:23:18) [PUT]
+  Parameters: {"commit"=>"Update", "id"=>"8", "song"=>{"artist"=>"Mos Def", "title"=>"Supermagic", "album"=>"The Ecstatic", "filename"=>"http://www.allweapons.net/musicthing/supermagic.mp3"}}
+  [4;35;1mSong Load (0.3ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 8) [0m
+  [4;36;1mSong Update (0.5ms)[0m   [0;1mUPDATE "songs" SET "updated_at" = '2010-04-22 04:23:18', "filename" = 'http://www.allweapons.net/musicthing/supermagic.mp3' WHERE "id" = 8[0m
+Redirected to http://localhost:3000/songs/8
+Completed in 60ms (DB: 1) | 302 Found [http://localhost/songs/8]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-21 23:23:18) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mSong Load (0.3ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 8) [0m
+Rendering template within layouts/songs
+Rendering songs/show
+Completed in 36ms (View: 28, DB: 0) | 200 OK [http://localhost/songs/8]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:23:21) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 23:23:21) [GET]
+
+ActionController::RoutingError (No route matches "/music/http://www.allweapons.net/musicthing/supermagic.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-21 23:23:23) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:23:23) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 102ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 23:23:23) [GET]
+
+ActionController::RoutingError (No route matches "/music/http://www.allweapons.net/musicthing/supermagic.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:23:25) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 23:23:25) [GET]
+
+ActionController::RoutingError (No route matches "/music/http://www.allweapons.net/musicthing/supermagic.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-21 23:23:26) [GET]
+  Parameters: {"id"=>"0"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:23:27) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 23:23:27) [GET]
+
+ActionController::RoutingError (No route matches "/music/http://www.allweapons.net/musicthing/supermagic.mp3" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:25:18) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:27:35) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 20ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:27:46) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 92ms (View: 84, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:28:01) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:28:15) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 20ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:28:38) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:29:09) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:29:20) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:29:51) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:30:58) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 20ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:31:10) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:31:45) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:31:53) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 13ms (View: 3, DB: 1) | 200 OK [http://localhost/]
