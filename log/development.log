@@ -2901,3 +2901,298 @@ Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-21 23:31:53) 
 Rendering template within layouts/songs
 Rendering songs/view_playlist
 Completed in 13ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:08:59) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:09:07) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:09:17) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-164wt16-0>}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/models/data_file.rb:58:in `upload_to_ftp'
+  app/models/data_file.rb:30:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (52.9ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:09:55) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:09:57) [POST]
+  Parameters: {"commit"=>"Upload"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:20:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (281.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:09:57) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:10:02) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-1nsgrad-0>}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/models/data_file.rb:58:in `upload_to_ftp'
+  app/models/data_file.rb:30:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (52.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#show (for 127.0.0.1 at 2010-04-22 00:10:36) [GET]
+  Parameters: {"id"=>"uploadFile"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, playlist_setup, and uploadFile):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:10:38) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:10:44) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-15kovp5-0>}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/models/data_file.rb:58:in `upload_to_ftp'
+  app/models/data_file.rb:30:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (203.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:11:07) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:11:12) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-18zxu6m-0>}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/models/data_file.rb:58:in `upload_to_ftp'
+  app/models/data_file.rb:30:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (52.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:11:23) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:11:24) [POST]
+  Parameters: {"commit"=>"Upload"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:20:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (51.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:11:25) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:11:29) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-sdjwz8-0>}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/models/data_file.rb:59:in `upload_to_ftp'
+  app/models/data_file.rb:30:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (51.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:11:47) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:11:50) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-bi0704-0>}}
+Rendering upload/uploadFile
+Completed in 880ms (View: 8, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:12:11) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:12:15) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-kyli55-0>}}
+
+TypeError (can't convert nil into String):
+  app/models/data_file.rb:57:in `upload_to_ftp'
+  app/models/data_file.rb:30:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (53.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:13:58) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:14:02) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-171o7to-0>}}
+Rendering upload/uploadFile
+Completed in 959ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:14:35) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:14:36) [POST]
+  Parameters: {"commit"=>"Upload"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:20:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (51.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:14:37) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:14:42) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-j6lqpq-0>}}
+Rendering upload/uploadFile
+Completed in 863ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:20:25) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:20:32) [POST]
+  Parameters: {"commit"=>"Upload"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:20:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (143.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:20:34) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:20:38) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-1e3ip9p-0>}}
+Rendering upload/uploadFile
+Completed in 1685ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:20:54) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:20:58) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-1jkx8v-0>}}
+Rendering upload/uploadFile
+Completed in 1721ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]

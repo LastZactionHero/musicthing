@@ -50,18 +50,17 @@ class DataFile < ActiveRecord::Base
   end
   
   def self.upload_to_ftp( input_filename, output_filename )
-  
+	
     # Connect to FTP
     ftp = Net::FTP.new
     puts ftp.connect( 'ftp.allweapons.net', 21 )
-    puts ftp.login( 'zdicklin', 'foxForce5' )
-    puts ftp.chdir( 'musicthing' )
+    ftp.login( 'zdicklin', 'foxForce5' )
+    ftp.passive = true
+	puts ftp.chdir( 'musicthing' )
 	
-	#count = 0
-	#puts ftp.putbinaryfile( input_filename, output_filename )
+	puts ftp.putbinaryfile( input_filename, output_filename )
 	
     puts ftp.close
-	
   end
   
 end
