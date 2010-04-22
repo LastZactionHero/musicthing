@@ -30,12 +30,12 @@ class DataFile < ActiveRecord::Base
 	upload_to_ftp( tempfile.path , name )
 	
 	# Add database entry
-	#@song = Song.new()
-	#@song.title = song_tags.title
-	#@song.artist = song_tags.artist
-	#@song.album = song_tags.album
-	#@song.filename = "http://www.allweapons.net/musicthing/#{name}"
-	#@song.save
+	@song = Song.new()
+	@song.title = song_tags.title
+	@song.artist = song_tags.artist
+	@song.album = song_tags.album
+	@song.filename = "http://www.allweapons.net/musicthing/#{name}"
+	@song.save
 	
 	# Clean up
 	tempfile.close

@@ -3196,3 +3196,89 @@ Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:20:58) [P
   Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-1jkx8v-0>}}
 Rendering upload/uploadFile
 Completed in 1721ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-22 00:23:28) [GET]
+
+ActionController::RoutingError (No route matches "/song/view_playlist" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-22 00:23:30) [GET]
+  Parameters: {"id"=>"view_playlist"}
+  [4;35;1mSong Load (0.2ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=view_playlist):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (52.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-22 00:23:40) [GET]
+
+ActionController::RoutingError (No route matches "/view_playlist" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-22 00:23:44) [GET]
+
+ActionController::RoutingError (No route matches "/viewplaylist" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:23:45) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:24:35) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:24:41) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-1i845wu-0>}}
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NameError (undefined local variable or method `song_tags' for DataFile(Table doesn't exist):Class):
+  app/models/data_file.rb:34:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (52.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:25:14) [GET]
+  [4;35;1mSong Load (0.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 11ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-22 00:25:19) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100422-3204-1j09f1l-0>}}
+Redirected to http://localhost:3000/
+Completed in 1713ms (DB: 0) | 302 Found [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-22 00:25:20) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
