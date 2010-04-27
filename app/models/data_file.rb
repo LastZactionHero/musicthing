@@ -17,8 +17,15 @@ class DataFile < ActiveRecord::Base
   def self.save(upload)
   
     # Get filename
-	name = upload['datafile'].original_filename
+	upload_filename = upload['datafile'].original_filename
 	
+	# Replace spaces with '-'
+	upload_filename = upload_filename.gsub( / /, '-' )
+	
+	# Prefix song name with database index number
+	upload_filename = Song.all.size.to_s + upload_filename
+	
+	puts "Upload Filename: #{upload_filename}"
     # Create Tempfile of upload
     tempfile = Tempfile.new( 'music_file_upload' )
 	tempfile.puts upload['datafile'].read
@@ -27,7 +34,7 @@ class DataFile < ActiveRecord::Base
 	song_tags = extract_mp3_tags( tempfile.path )
 	
 	# Upload to ftp server
-	upload_to_ftp( tempfile.path , name )
+	upload_to_ftp( tempfile.path , upload_filename )
 	
 	# Add database entry
 	@song = Song.new()

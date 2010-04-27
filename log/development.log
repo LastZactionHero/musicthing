@@ -3600,3 +3600,71 @@ Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-26 22:53:18) 
 Rendering template within layouts/songs
 Rendering songs/view_playlist
 Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-26 23:04:14) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 38ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-26 23:04:16) [POST]
+  Parameters: {"commit"=>"Upload"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:20:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (53.6ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-26 23:04:18) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-26 23:04:42) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100426-1131-1ycs7ge-0>}}
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `size' for #<Class:0x2e34d68>):
+  app/models/data_file.rb:26:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (51.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-26 23:04:57) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-26 23:05:02) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100426-1131-49lsit-0>}}
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-26 23:06:03) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 44ms (View: 34, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-26 23:06:10) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100426-1263-10tjk5g-0>}}
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
