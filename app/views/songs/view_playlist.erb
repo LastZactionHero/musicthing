@@ -42,7 +42,7 @@
 	<div class="playlist_bottom_container">
       <% if !@current_track_filename.empty? %>
 	    <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
-	      <%= "<embed id=\"music_player\" src=\"#{@current_track_filename}\" width=\"400\" height=\"20\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" %>
+	      <%= "<embed id=\"music_player\" src=\"#{@current_track_filename}\" width=\"400\" height=\"15\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" %>
         </object>
 	  <% end %>
 	</div>
