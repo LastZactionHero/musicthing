@@ -25,7 +25,6 @@ class DataFile < ActiveRecord::Base
 	# Prefix song name with database index number
 	upload_filename = Song.all.size.to_s + upload_filename
 	
-	puts "Upload Filename: #{upload_filename}"
     # Create Tempfile of upload
     tempfile = Tempfile.new( 'music_file_upload' )
 	tempfile.puts upload['datafile'].read
@@ -41,7 +40,7 @@ class DataFile < ActiveRecord::Base
 	@song.title = song_tags.title
 	@song.artist = song_tags.artist
 	@song.album = song_tags.album
-	@song.filename = "http://www.allweapons.net/musicthing/#{name}"
+	@song.filename = "http://www.allweapons.net/musicthing/#{upload_filename}"
 	@song.save
 	
 	# Clean up
