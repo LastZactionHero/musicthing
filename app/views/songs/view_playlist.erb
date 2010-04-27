@@ -20,7 +20,11 @@
 		<% track_box_top = 0 %>
 		<% song_idx = 0 %>
 		<% @songs.each do |song| %>
-			<%= "<div class=\"track_box\" style=\"top:#{track_box_top}px;\" onclick=\"javascript:set_current_track(#{song_idx})\">" %>
+			<% if session[:current_track] == song_idx %>
+				<%= "<div class=\"track_box_active\" style=\"top:#{track_box_top}px;\" onclick=\"javascript:set_current_track(#{song_idx})\">" %>
+			<% else %>
+				<%= "<div class=\"track_box\" style=\"top:#{track_box_top}px;\" onclick=\"javascript:set_current_track(#{song_idx})\">" %>
+			<% end %>
 				<div class="track_image">
 					<img src="images/albumart.jpg">
 				</div>
