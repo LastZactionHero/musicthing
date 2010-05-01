@@ -3726,3 +3726,3471 @@ Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-26 23:40:57) 
 Rendering template within layouts/songs
 Rendering songs/view_playlist
 Completed in 36ms (View: 3, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:16:46) [GET]
+  [4;36;1mSong Load (1.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 207ms (View: 163, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:22:54) [GET]
+  [4;35;1mSong Load (18.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 63ms (View: 22, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:23:14) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:20:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (71.2ms)
+Rendered rescues/_request_and_response (47.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:24:24) [GET]
+  [4;36;1mSong Load (15.6ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 54ms (View: 16, DB: 16) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:24:29) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:20:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (50.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:24:51) [GET]
+  [4;35;1mSong Load (1.6ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 27ms (View: 17, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:24:53) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:25:02) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 26ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:25:25) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 28ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:25:42) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 25ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:25:56) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 34ms (View: 22, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:26:02) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:20:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:27:37) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:21:in `save'
+  app/controllers/upload_controller.rb:8:in `uploadFile'
+
+Rendered rescues/_trace (57.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:28:34) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:21:in `save'
+  app/controllers/upload_controller.rb:10:in `uploadFile'
+
+Rendered rescues/_trace (58.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:29:04) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (undefined method `all' for #<HashWithIndifferentAccess:0x2bd47a8>):
+  app/controllers/upload_controller.rb:8:in `uploadFile'
+
+Rendered rescues/_trace (143.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#uploadFile (for 127.0.0.1 at 2010-04-29 20:29:48) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+SyntaxError (/Users/zachdicklin/www/musicthing0.1/app/controllers/upload_controller.rb:10: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+	  puts "param!\n"
+	        ^
+/Users/zachdicklin/www/musicthing0.1/app/controllers/upload_controller.rb:11: syntax error, unexpected '}', expecting kEND):
+  
+
+Rendered rescues/_trace (46.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#uploadFile (for 127.0.0.1 at 2010-04-29 20:30:00) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+SyntaxError (/Users/zachdicklin/www/musicthing0.1/app/controllers/upload_controller.rb:8: syntax error, unexpected '|', expecting '}'
+	params.all.each do {|param|
+	                     ^
+/Users/zachdicklin/www/musicthing0.1/app/controllers/upload_controller.rb:10: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+	  puts "param!\n"
+	        ^
+/Users/zachdicklin/www/musicthing0.1/app/controllers/upload_controller.rb:11: syntax error, unexpected '}', expecting kEND):
+  
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#uploadFile (for 127.0.0.1 at 2010-04-29 20:31:06) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+SyntaxError (/Users/zachdicklin/www/musicthing0.1/app/controllers/upload_controller.rb:19: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (232.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:31:29) [GET]
+  [4;35;1mSong Load (69.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 116ms (View: 37, DB: 70) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:31:30) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (undefined method `all' for #<HashWithIndifferentAccess:0x2da1234>):
+  app/controllers/upload_controller.rb:8:in `uploadFile'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:31:47) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 208ms (View: 203, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:31:59) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:32:06) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:32:07) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:32:22) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (undefined method `name' for ["commit", "Upload"]:Array):
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+  app/controllers/upload_controller.rb:8:in `each'
+  app/controllers/upload_controller.rb:8:in `uploadFile'
+
+Rendered rescues/_trace (197.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:32:58) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:33:11) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (undefined method `key' for ["commit", "Upload"]:Array):
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+  app/controllers/upload_controller.rb:8:in `each'
+  app/controllers/upload_controller.rb:8:in `uploadFile'
+
+Rendered rescues/_trace (65.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:33:41) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:35:09) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:35:10) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:35:17) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:35:18) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:35:23) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:36:15) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:36:31) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:36:37) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (undefined method `value' for ["commit", "Upload"]:Array):
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+  app/controllers/upload_controller.rb:8:in `each'
+  app/controllers/upload_controller.rb:8:in `uploadFile'
+
+Rendered rescues/_trace (61.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:37:02) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+NoMethodError (undefined method `value' for nil:NilClass):
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+  app/controllers/upload_controller.rb:8:in `each'
+  app/controllers/upload_controller.rb:8:in `uploadFile'
+
+Rendered rescues/_trace (51.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:37:15) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:37:26) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+
+TypeError (Symbol as array index):
+  app/controllers/upload_controller.rb:9:in `[]'
+  app/controllers/upload_controller.rb:9:in `uploadFile'
+  app/controllers/upload_controller.rb:8:in `each'
+  app/controllers/upload_controller.rb:8:in `uploadFile'
+
+Rendered rescues/_trace (59.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:39:37) [POST]
+  Parameters: {"commit"=>"Upload", "_"=>""}
+Rendering upload/uploadFile
+Completed in 58ms (View: 55, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:39:39) [GET]
+  [4;36;1mSong Load (69.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 95ms (View: 17, DB: 69) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:39:41) [POST]
+  Parameters: {"commit"=>"Upload", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:40:45) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 25ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:40:48) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:41:17) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>"asdfasdfasfd"}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:41:25) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>"asdfasdfasfd"}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:43:04) [GET]
+  [4;36;1mSong Load (70.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 96ms (View: 16, DB: 70) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:43:40) [GET]
+  [4;35;1mSong Load (62.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 88ms (View: 17, DB: 62) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:43:49) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:44:56) [GET]
+  [4;36;1mSong Load (15.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 127ms (View: 102, DB: 16) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:44:59) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 87ms (View: 84, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:45:03) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:46:19) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+
+ActionView::TemplateError (wrong number of arguments (1 for 2)) on line #57 of app/views/songs/view_playlist.erb:
+54: <% form_remote_tag :multipart => true, :url => '/upload/uploadFile', :update => 'test_list' do -%>
+55: <div>
+56: Name: <%= text_field "subject", "name" %>
+57: <%= file_field :mp3value %><%= submit_tag 'Add' %>
+58: </div>
+59: <% end -%>
+60: 
+
+    app/views/songs/view_playlist.erb:57:in `file_field'
+    app/views/songs/view_playlist.erb:57
+    app/views/songs/view_playlist.erb:54
+
+Rendered rescues/_trace (160.1ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:47:04) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:47:09) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:47:49) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 25ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:47:58) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 26ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:48:03) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:49:01) [GET]
+  [4;35;1mSong Load (2.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 34ms (View: 20, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:49:03) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 106ms (View: 103, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:49:58) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+ERROR: compiling _run_erb_app47views47songs47view_playlist46erb RAISED compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: syntax error, unexpected tASSOC, expecting kEND
+	:multipart => true, 
+	             ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: Can't assign to true
+	:multipart => true, 
+	                   ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:56: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+	:url => {:controller => :upload, :action => :uploadFile }
+	       ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:57: syntax error, unexpected tASSOC, expecting kEND
+	:update => 'test_list' do 
+	          ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:57: syntax error, unexpected kDO, expecting kEND
+	:update => 'test_list' do 
+	                         ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:71: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47songs47view_playlist46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat(( stylesheet_link_tag "playlist" ).to_s); @output_buffer.concat "\n \n<script language=\"javascript\">\n\tfunction set_current_track( track )\n\t{\n\twindow.location = \"/set_track/\" + track\n\t}\n\t\n\n</script>\n \n<div style=\"position:absolute; top:0px; left:0px; width:800px; height:600px; background-image:url('/images/background.png'); overflow:hidden; visibility:hidden\">\n\n<div class=\"playlist_box\">\n\t<div class=\"playlist_title_container\">\n\t\t<strong>Playlist Title</strong>\n\t</div>\n\t\n\t<div class=\"playlist_container\">\n\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;  track_box_top = 0 ; @output_buffer.concat "\n\t\t"
+;  song_idx = 0 ; @output_buffer.concat "\n\t\t"
+;  @songs.each do |song| ; @output_buffer.concat "\n\t\t\t"
+;  if session[:current_track] == song_idx ; @output_buffer.concat "\n\t\t\t\t"
+; @output_buffer.concat(( "<div class=\"track_box_active\" style=\"top:#{track_box_top}px;\" onclick=\"javascript:set_current_track(#{song_idx})\">" ).to_s); @output_buffer.concat "\n\t\t\t"
+;  else ; @output_buffer.concat "\n\t\t\t\t"
+; @output_buffer.concat(( "<div class=\"track_box\" style=\"top:#{track_box_top}px;\" onclick=\"javascript:set_current_track(#{song_idx})\">" ).to_s); @output_buffer.concat "\n\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t\t<div class=\"track_image\">\n\t\t\t\t\t<img src=\"images/albumart.jpg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"track_text_box\"\t>\n\t\t\t\t\t<strong>"
+
+
+
+
+; @output_buffer.concat(( "#{song.title}" ).to_s); @output_buffer.concat " - "; @output_buffer.concat(( "#{song.artist}" ).to_s); @output_buffer.concat " - "; @output_buffer.concat(( "#{song.album}" ).to_s); @output_buffer.concat "</strong><br>\n\t\t\t\t\tSubmitter Name\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t"
+
+
+
+;  track_box_top += 50 ; @output_buffer.concat "\n\t\t"
+;  song_idx += 1 ; @output_buffer.concat "\n\t\t"
+;  end ; @output_buffer.concat "\n\t\t\n\t</div>\n\t\n\t<div class=\"playlist_bottom_container\">\n      "
+
+
+
+
+;  if !@current_track_filename.empty? ; @output_buffer.concat "\n\t    <object classid=\"clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B\" codebase=\"http://www.apple.com/qtactivex/qtplugin.cab\">\n\t      "
+
+; @output_buffer.concat(( "<embed id=\"music_player\" src=\"#{@current_track_filename}\" width=\"400\" height=\"15\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" ).to_s); @output_buffer.concat "\n        </object>\n\t  "
+
+;  end ; @output_buffer.concat "\n\t</div>\n</div>\n\n</div>\n\n\n"
+
+
+
+
+
+
+;  form_remote_tag 
+	:multipart => true, 
+	:url => {:controller => :upload, :action => :uploadFile }
+	:update => 'test_list' do 
+@output_buffer.concat "<div>\n"
+; @output_buffer.concat(( text_field "subject", "name" ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( file_field :mp3value, :size => 20 ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( submit_tag 'Add' ).to_s); @output_buffer.concat "\n</div>\n"
+
+;  end 
+@output_buffer.concat "\n<ul id=\"test_list\">\n <li>Item!</li>\n</ul>\n      <!-- #"
+
+
+
+;  form_tag '/upload/uploadFile', :multipart => true do ; @output_buffer.concat " \n      #  "
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n      #"
+;  end ; @output_buffer.concat "-->"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:71:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: syntax error, unexpected tASSOC, expecting kEND
+	:multipart => true, 
+	             ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: Can't assign to true
+	:multipart => true, 
+	                   ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:56: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+	:url => {:controller => :upload, :action => :uploadFile }
+	       ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:57: syntax error, unexpected tASSOC, expecting kEND
+	:update => 'test_list' do 
+	          ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:57: syntax error, unexpected kDO, expecting kEND
+	:update => 'test_list' do 
+	                         ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:71: syntax error, unexpected kENSURE, expecting $end) on line #55 of app/views/songs/view_playlist.erb:
+52: 
+53: 
+54: <% form_remote_tag 
+55: 	:multipart => true, 
+56: 	:url => {:controller => :upload, :action => :uploadFile }
+57: 	:update => 'test_list' do -%>
+58: <div>
+
+    app/views/songs/view_playlist.erb:71:in `compile!'
+
+Rendered rescues/_trace (64.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:50:09) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+ERROR: compiling _run_erb_app47views47songs47view_playlist46erb RAISED compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: syntax error, unexpected tASSOC, expecting kEND
+	:multipart => true, 
+	             ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: Can't assign to true
+	:multipart => true, 
+	                   ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:56: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+	:url => {:controller => :upload, :action => :uploadFile },
+	       ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:56: syntax error, unexpected ',', expecting kEND
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:57: syntax error, unexpected kDO, expecting kEND
+	:update => 'test_list' do 
+	                         ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:71: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47songs47view_playlist46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat(( stylesheet_link_tag "playlist" ).to_s); @output_buffer.concat "\n \n<script language=\"javascript\">\n\tfunction set_current_track( track )\n\t{\n\twindow.location = \"/set_track/\" + track\n\t}\n\t\n\n</script>\n \n<div style=\"position:absolute; top:0px; left:0px; width:800px; height:600px; background-image:url('/images/background.png'); overflow:hidden; visibility:hidden\">\n\n<div class=\"playlist_box\">\n\t<div class=\"playlist_title_container\">\n\t\t<strong>Playlist Title</strong>\n\t</div>\n\t\n\t<div class=\"playlist_container\">\n\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;  track_box_top = 0 ; @output_buffer.concat "\n\t\t"
+;  song_idx = 0 ; @output_buffer.concat "\n\t\t"
+;  @songs.each do |song| ; @output_buffer.concat "\n\t\t\t"
+;  if session[:current_track] == song_idx ; @output_buffer.concat "\n\t\t\t\t"
+; @output_buffer.concat(( "<div class=\"track_box_active\" style=\"top:#{track_box_top}px;\" onclick=\"javascript:set_current_track(#{song_idx})\">" ).to_s); @output_buffer.concat "\n\t\t\t"
+;  else ; @output_buffer.concat "\n\t\t\t\t"
+; @output_buffer.concat(( "<div class=\"track_box\" style=\"top:#{track_box_top}px;\" onclick=\"javascript:set_current_track(#{song_idx})\">" ).to_s); @output_buffer.concat "\n\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t\t<div class=\"track_image\">\n\t\t\t\t\t<img src=\"images/albumart.jpg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"track_text_box\"\t>\n\t\t\t\t\t<strong>"
+
+
+
+
+; @output_buffer.concat(( "#{song.title}" ).to_s); @output_buffer.concat " - "; @output_buffer.concat(( "#{song.artist}" ).to_s); @output_buffer.concat " - "; @output_buffer.concat(( "#{song.album}" ).to_s); @output_buffer.concat "</strong><br>\n\t\t\t\t\tSubmitter Name\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t"
+
+
+
+;  track_box_top += 50 ; @output_buffer.concat "\n\t\t"
+;  song_idx += 1 ; @output_buffer.concat "\n\t\t"
+;  end ; @output_buffer.concat "\n\t\t\n\t</div>\n\t\n\t<div class=\"playlist_bottom_container\">\n      "
+
+
+
+
+;  if !@current_track_filename.empty? ; @output_buffer.concat "\n\t    <object classid=\"clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B\" codebase=\"http://www.apple.com/qtactivex/qtplugin.cab\">\n\t      "
+
+; @output_buffer.concat(( "<embed id=\"music_player\" src=\"#{@current_track_filename}\" width=\"400\" height=\"15\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" ).to_s); @output_buffer.concat "\n        </object>\n\t  "
+
+;  end ; @output_buffer.concat "\n\t</div>\n</div>\n\n</div>\n\n\n"
+
+
+
+
+
+
+;  form_remote_tag 
+	:multipart => true, 
+	:url => {:controller => :upload, :action => :uploadFile },
+	:update => 'test_list' do 
+@output_buffer.concat "<div>\n"
+; @output_buffer.concat(( text_field "subject", "name" ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( file_field :mp3value, :size => 20 ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( submit_tag 'Add' ).to_s); @output_buffer.concat "\n</div>\n"
+
+;  end 
+@output_buffer.concat "\n<ul id=\"test_list\">\n <li>Item!</li>\n</ul>\n      <!-- #"
+
+
+
+;  form_tag '/upload/uploadFile', :multipart => true do ; @output_buffer.concat " \n      #  "
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n      #"
+;  end ; @output_buffer.concat "-->"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:71:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: syntax error, unexpected tASSOC, expecting kEND
+	:multipart => true, 
+	             ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: Can't assign to true
+	:multipart => true, 
+	                   ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:56: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+	:url => {:controller => :upload, :action => :uploadFile },
+	       ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:56: syntax error, unexpected ',', expecting kEND
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:57: syntax error, unexpected kDO, expecting kEND
+	:update => 'test_list' do 
+	                         ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:71: syntax error, unexpected kENSURE, expecting $end) on line #55 of app/views/songs/view_playlist.erb:
+52: 
+53: 
+54: <% form_remote_tag 
+55: 	:multipart => true, 
+56: 	:url => {:controller => :upload, :action => :uploadFile },
+57: 	:update => 'test_list' do -%>
+58: <div>
+
+    app/views/songs/view_playlist.erb:71:in `compile!'
+
+Rendered rescues/_trace (162.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:50:21) [GET]
+  [4;36;1mSong Load (0.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+ERROR: compiling _run_erb_app47views47songs47view_playlist46erb RAISED compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: syntax error, unexpected tASSOC, expecting kEND
+	:url => {:controller => :upload, :action => :uploadFile },
+	       ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: syntax error, unexpected ',', expecting kEND
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:56: syntax error, unexpected kDO, expecting kEND
+	:update => 'test_list' do 
+	                         ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:70: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47songs47view_playlist46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat(( stylesheet_link_tag "playlist" ).to_s); @output_buffer.concat "\n \n<script language=\"javascript\">\n\tfunction set_current_track( track )\n\t{\n\twindow.location = \"/set_track/\" + track\n\t}\n\t\n\n</script>\n \n<div style=\"position:absolute; top:0px; left:0px; width:800px; height:600px; background-image:url('/images/background.png'); overflow:hidden; visibility:hidden\">\n\n<div class=\"playlist_box\">\n\t<div class=\"playlist_title_container\">\n\t\t<strong>Playlist Title</strong>\n\t</div>\n\t\n\t<div class=\"playlist_container\">\n\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;  track_box_top = 0 ; @output_buffer.concat "\n\t\t"
+;  song_idx = 0 ; @output_buffer.concat "\n\t\t"
+;  @songs.each do |song| ; @output_buffer.concat "\n\t\t\t"
+;  if session[:current_track] == song_idx ; @output_buffer.concat "\n\t\t\t\t"
+; @output_buffer.concat(( "<div class=\"track_box_active\" style=\"top:#{track_box_top}px;\" onclick=\"javascript:set_current_track(#{song_idx})\">" ).to_s); @output_buffer.concat "\n\t\t\t"
+;  else ; @output_buffer.concat "\n\t\t\t\t"
+; @output_buffer.concat(( "<div class=\"track_box\" style=\"top:#{track_box_top}px;\" onclick=\"javascript:set_current_track(#{song_idx})\">" ).to_s); @output_buffer.concat "\n\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t\t<div class=\"track_image\">\n\t\t\t\t\t<img src=\"images/albumart.jpg\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"track_text_box\"\t>\n\t\t\t\t\t<strong>"
+
+
+
+
+; @output_buffer.concat(( "#{song.title}" ).to_s); @output_buffer.concat " - "; @output_buffer.concat(( "#{song.artist}" ).to_s); @output_buffer.concat " - "; @output_buffer.concat(( "#{song.album}" ).to_s); @output_buffer.concat "</strong><br>\n\t\t\t\t\tSubmitter Name\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t"
+
+
+
+;  track_box_top += 50 ; @output_buffer.concat "\n\t\t"
+;  song_idx += 1 ; @output_buffer.concat "\n\t\t"
+;  end ; @output_buffer.concat "\n\t\t\n\t</div>\n\t\n\t<div class=\"playlist_bottom_container\">\n      "
+
+
+
+
+;  if !@current_track_filename.empty? ; @output_buffer.concat "\n\t    <object classid=\"clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B\" codebase=\"http://www.apple.com/qtactivex/qtplugin.cab\">\n\t      "
+
+; @output_buffer.concat(( "<embed id=\"music_player\" src=\"#{@current_track_filename}\" width=\"400\" height=\"15\" autoplay=\"true\" controller=\"true\" pluginspage=\"http://www.apple.com/quicktime/download/\"></embed>" ).to_s); @output_buffer.concat "\n        </object>\n\t  "
+
+;  end ; @output_buffer.concat "\n\t</div>\n</div>\n\n</div>\n\n\n"
+
+
+
+
+
+
+;  form_remote_tag 
+	:url => {:controller => :upload, :action => :uploadFile },
+	:update => 'test_list' do 
+@output_buffer.concat "<div>\n"
+; @output_buffer.concat(( text_field "subject", "name" ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( file_field :mp3value, :size => 20 ).to_s); @output_buffer.concat "<br>\n"
+; @output_buffer.concat(( submit_tag 'Add' ).to_s); @output_buffer.concat "\n</div>\n"
+
+;  end 
+@output_buffer.concat "\n<ul id=\"test_list\">\n <li>Item!</li>\n</ul>\n      <!-- #"
+
+
+
+;  form_tag '/upload/uploadFile', :multipart => true do ; @output_buffer.concat " \n      #  "
+; @output_buffer.concat(( file_field 'upload', 'datafile' ).to_s); @output_buffer.concat(( submit_tag "Upload" ).to_s); @output_buffer.concat "\n      #"
+;  end ; @output_buffer.concat "-->"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:70:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: syntax error, unexpected tASSOC, expecting kEND
+	:url => {:controller => :upload, :action => :uploadFile },
+	       ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:55: syntax error, unexpected ',', expecting kEND
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:56: syntax error, unexpected kDO, expecting kEND
+	:update => 'test_list' do 
+	                         ^
+/Users/zachdicklin/www/musicthing0.1/app/views/songs/view_playlist.erb:70: syntax error, unexpected kENSURE, expecting $end) on line #55 of app/views/songs/view_playlist.erb:
+52: 
+53: 
+54: <% form_remote_tag 
+55: 	:url => {:controller => :upload, :action => :uploadFile },
+56: 	:update => 'test_list' do -%>
+57: <div>
+58: <%= text_field "subject", "name" %><br>
+
+    app/views/songs/view_playlist.erb:70:in `compile!'
+
+Rendered rescues/_trace (62.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:50:35) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 26ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:50:37) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:50:42) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>""}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:50:44) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>"adfasdfa"}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:51:25) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 111ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 20:51:31) [POST]
+  Parameters: {"commit"=>"Add", "subject"=>{"name"=>"adfasdfa"}, "_"=>""}
+Rendering upload/uploadFile
+Completed in 65ms (View: 62, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:53:57) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 25ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:57:14) [GET]
+  [4;36;1mSong Load (71.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 95ms (View: 14, DB: 71) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:57:51) [GET]
+  [4;35;1mSong Load (11.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 36ms (View: 14, DB: 12) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 20:57:51) [GET]
+
+ActionController::RoutingError (No route matches "/www.google.com" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:58:05) [GET]
+  [4;36;1mSong Load (20.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 135ms (View: 105, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-29 20:58:06) [GET]
+
+ActionController::RoutingError (No route matches "/www.google.com" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:58:14) [GET]
+  [4;35;1mSong Load (0.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 36ms (View: 23, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 20:59:15) [GET]
+  [4;36;1mSong Load (77.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 105ms (View: 19, DB: 78) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:02:15) [GET]
+  [4;35;1mSong Load (15.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 45ms (View: 19, DB: 16) | 200 OK [http://localhost/]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:16) [GET]
+  Parameters: {"id"=>"upload_form"}
+  [4;36;1mSong Load (0.3ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=upload_form):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (239.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-29 21:02:20) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 38ms (View: 29, DB: 1) | 200 OK [http://localhost/songs/]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:23) [GET]
+  Parameters: {"id"=>"upload_form"}
+  [4;36;1mSong Load (0.2ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=upload_form):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (56.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSong Load (0.2ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=1):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (150.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:39) [GET]
+  Parameters: {"id"=>"0"}
+  [4;36;1mSong Load (0.2ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=0):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (52.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:41) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mSong Load (0.2ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 2) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=2):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (53.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:43) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSong Load (0.2ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 3) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=3):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (155.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:44) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mSong Load (0.2ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 4) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=4):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (54.4ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-29 21:02:47) [GET]
+  [4;36;1mSong Load (0.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/songs/]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:51) [GET]
+  Parameters: {"id"=>"show"}
+  [4;35;1mSong Load (0.2ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=show):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (52.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:54) [GET]
+  Parameters: {"id"=>"0"}
+  [4;36;1mSong Load (0.3ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=0):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (143.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:02:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSong Load (0.2ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Song with ID=1):
+  app/controllers/songs_controller.rb:16:in `show'
+
+Rendered rescues/_trace (54.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#index (for 127.0.0.1 at 2010-04-29 21:02:58) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/index
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/songs/]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:03:01) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mSong Load (0.4ms)[0m   [0mSELECT * FROM "songs" WHERE ("songs"."id" = 8) [0m
+Rendering template within layouts/songs
+Rendering songs/show
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://localhost/songs/8]
+
+
+Processing SongsController#show (for 127.0.0.1 at 2010-04-29 21:03:05) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mSong Load (0.4ms)[0m   [0;1mSELECT * FROM "songs" WHERE ("songs"."id" = 8) [0m
+Rendering template within layouts/songs
+Rendering songs/show
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/songs/show/8]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:06:58) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 83ms (View: 73, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:06:59) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:07:47) [GET]
+  [4;35;1mSong Load (77.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 111ms (View: 23, DB: 78) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:07:48) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:08:01) [GET]
+  [4;36;1mSong Load (13.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 39ms (View: 16, DB: 13) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:08:01) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:09:08) [GET]
+  [4;35;1mSong Load (79.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 96ms (View: 6, DB: 80) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:09:08) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 69ms (View: 65, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:10:18) [GET]
+  [4;36;1mSong Load (17.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 41ms (View: 15, DB: 17) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:10:18) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:10:24) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-1993-1s51zks-0>}}
+Rendering upload/uploadFile
+Completed in 50ms (View: 47, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:10:28) [GET]
+  [4;35;1mSong Load (15.3ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 30ms (View: 5, DB: 15) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:10:28) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:11:19) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-1993-68y2ya-0>}}
+  [4;36;1mSong Load (15.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+  [4;35;1mSong Create (197.4ms)[0m   [0mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('The Big Pink', '2010-04-30 02:14:19', 'Crystal Visions', '2010-04-30 02:14:19', 'A Brief History Of Love', 'http://www.allweapons.net/musicthing/201---Crystal-Visions.mp3')[0m
+Redirected to http://localhost:3000/
+Completed in 180398ms (DB: 213) | 302 Found [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:14:19) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 59ms (View: 47, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:14:20) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 27ms (View: 23, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:15:12) [GET]
+  [4;35;1mSong Load (18.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 135ms (View: 26, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:15:12) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 40ms (View: 36, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:15:51) [GET]
+  [4;36;1mSong Load (15.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 84ms (View: 60, DB: 15) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:15:51) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:16:52) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 39ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:16:53) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:17:02) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 76ms (View: 54, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:17:03) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:17:10) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 122ms (View: 102, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:17:10) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 66ms (View: 17, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:17:16) [GET]
+  [4;36;1mSong Load (0.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 33ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:17:17) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:17:25) [GET]
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:17:25) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:19:09) [GET]
+  [4;36;1mSong Load (64.2ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 84ms (View: 11, DB: 64) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:19:10) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 30ms (View: 18, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:19:18) [GET]
+  [4;35;1mSong Load (28.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 41ms (View: 4, DB: 28) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:19:18) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:19:26) [GET]
+  [4;36;1mSong Load (1.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 50ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:19:26) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 17, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:19:43) [GET]
+  [4;35;1mSong Load (80.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 235ms (View: 8, DB: 81) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:19:43) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:19:53) [GET]
+  [4;36;1mSong Load (20.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 37ms (View: 5, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:19:53) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:20:09) [GET]
+  [4;35;1mSong Load (15.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 48ms (View: 17, DB: 15) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:20:09) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 72ms (View: 63, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:20:14) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 21ms (View: 8, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:20:14) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 65ms (View: 60, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:20:19) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:20:20) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 206ms (View: 203, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:20:28) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:20:28) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:20:45) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:20:45) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 25ms (View: 21, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:21:02) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 46ms (View: 30, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:21:02) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 58ms (View: 47, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:21:14) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 22ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:21:15) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:21:33) [GET]
+  [4;36;1mSong Load (1.2ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 19ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:21:34) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:21:51) [GET]
+  [4;35;1mSong Load (0.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:21:52) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:22:32) [GET]
+  [4;36;1mSong Load (1.2ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 91ms (View: 68, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:22:33) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:22:41) [GET]
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:22:42) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 24ms (View: 15, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:23:46) [POST]
+  Parameters: {"commit"=>"Upload", "upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-1993-1aiw5ej-0>}}
+  [4;36;1mSong Load (25.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+  [4;35;1mSong Create (28.2ms)[0m   [0mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Beanie Sigel Feat. Jay-Z', '2010-04-30 02:26:57', 'Glock Nines', '2010-04-30 02:26:57', 'Ratatat Remixes Mixtape Volume 2', 'http://www.allweapons.net/musicthing/306-Glock-Nines.mp3')[0m
+Redirected to http://localhost:3000/songs/upload_form
+Completed in 191087ms (DB: 54) | 302 Found [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:26:57) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 59ms (View: 56, DB: 0) | 200 OK [http://localhost/songs/upload_form]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:30:18) [GET]
+  [4;36;1mSong Load (64.6ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 82ms (View: 5, DB: 65) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:30:18) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 99ms (View: 94, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:30:23) [POST]
+  Parameters: {"datafile"=>#<File:/tmp/RackMultipart20100429-1993-xw2p4j-0>}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:21:in `save'
+  app/controllers/upload_controller.rb:7:in `uploadFile'
+
+Rendered rescues/_trace (75.5ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:30:53) [GET]
+  [4;35;1mSong Load (81.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 103ms (View: 11, DB: 82) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:30:53) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 26ms (View: 20, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:30:57) [POST]
+  Parameters: {"upload"=>#<File:/tmp/RackMultipart20100429-1993-igm2ov-0>}
+
+NoMethodError (undefined method `[]' for #<File:/tmp/RackMultipart20100429-1993-igm2ov-0>):
+  app/models/data_file.rb:21:in `save'
+  app/controllers/upload_controller.rb:7:in `uploadFile'
+
+Rendered rescues/_trace (56.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:31:16) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:31:16) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 97ms (View: 93, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:31:22) [POST]
+  Parameters: {"upload"=>#<File:/tmp/RackMultipart20100429-1993-1hd4r7v-0>}
+
+NoMethodError (undefined method `[]' for #<File:/tmp/RackMultipart20100429-1993-1hd4r7v-0>):
+  app/models/data_file.rb:21:in `save'
+  app/controllers/upload_controller.rb:7:in `uploadFile'
+
+Rendered rescues/_trace (60.9ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:31:50) [GET]
+  [4;35;1mSong Load (1.6ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 26ms (View: 11, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:31:50) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 53ms (View: 48, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:32:35) [GET]
+  [4;36;1mSong Load (77.6ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 94ms (View: 5, DB: 78) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:32:35) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 29ms (View: 22, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:32:45) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 27ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:32:46) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:32:51) [POST]
+  Parameters: {"upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-1993-o66a1d-0>}}
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:34:29) [GET]
+  [4;36;1mSong Load (15.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 84ms (View: 58, DB: 16) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:34:29) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:34:35) [POST]
+  Parameters: {"upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-2228-eqdb5r-0>}}
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:35:36) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 52ms (View: 40, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:35:36) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:35:42) [POST]
+  Parameters: {"upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-2245-17ic290-0>}}
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:36:51) [GET]
+  [4;36;1mSong Load (70.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 117ms (View: 36, DB: 71) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:36:51) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:36:56) [POST]
+  Parameters: {"upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-2250-1xtbjaj-0>}}
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:37:36) [GET]
+  [4;36;1mSong Load (20.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 93ms (View: 62, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:37:36) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 42ms (View: 34, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:37:55) [POST]
+  Parameters: {"upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-2259-1hicpjj-0>}}
+  [4;35;1mSong Load (22.7ms)[0m   [0mSELECT * FROM "songs" [0m
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:38:13) [GET]
+  [4;36;1mSong Load (1.2ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 56ms (View: 43, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:38:13) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 84ms (View: 57, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:38:16) [POST]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:21:in `save'
+  app/controllers/upload_controller.rb:7:in `uploadFile'
+
+Rendered rescues/_trace (58.9ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:38:58) [GET]
+  [4;35;1mSong Load (69.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 175ms (View: 4, DB: 70) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:38:59) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:39:32) [GET]
+  [4;36;1mSong Load (12.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 27ms (View: 5, DB: 13) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:39:32) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 77ms (View: 71, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:39:38) [POST]
+  Parameters: {"upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-2267-1y03ctt-0>}}
+  [4;35;1mSong Load (25.1ms)[0m   [0mSELECT * FROM "songs" [0m
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:40:50) [GET]
+  [4;36;1mSong Load (1.2ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 73ms (View: 60, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:40:51) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 37ms (View: 30, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:41:31) [GET]
+  [4;35;1mSong Load (66.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 81ms (View: 5, DB: 66) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:41:32) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 104ms (View: 84, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:42:23) [GET]
+  [4;36;1mSong Load (70.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 98ms (View: 5, DB: 71) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:42:24) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 182ms (View: 178, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:42:40) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 22ms (View: 8, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:42:41) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 28ms (View: 22, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:43:02) [GET]
+  [4;36;1mSong Load (94.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 118ms (View: 5, DB: 94) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:43:02) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 36ms (View: 29, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:43:15) [GET]
+  [4;35;1mSong Load (44.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 60ms (View: 6, DB: 45) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:43:15) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 154ms (View: 52, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:43:24) [GET]
+  [4;36;1mSong Load (16.6ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 30ms (View: 5, DB: 17) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:43:24) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 94ms (View: 85, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:43:48) [GET]
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:43:48) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 47ms (View: 37, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:44:00) [GET]
+  [4;36;1mSong Load (82.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 98ms (View: 4, DB: 82) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:44:01) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 308ms (View: 103, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:44:08) [GET]
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 27ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:44:09) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 68ms (View: 55, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:44:26) [GET]
+  [4;36;1mSong Load (1.2ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 39ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:44:26) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 41ms (View: 38, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:44:50) [GET]
+  [4;35;1mSong Load (1.0ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:44:50) [GET]
+  [4;36;1mSong Load (3.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 133ms (View: 5, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:44:51) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 42ms (View: 38, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:45:14) [GET]
+  [4;35;1mSong Load (3.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 32ms (View: 9, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:45:14) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 50ms (View: 39, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:45:22) [GET]
+  [4;36;1mSong Load (69.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 86ms (View: 5, DB: 69) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:45:23) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 44ms (View: 39, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:45:40) [GET]
+  [4;35;1mSong Load (68.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 212ms (View: 5, DB: 68) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:45:41) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 61ms (View: 52, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:45:52) [GET]
+  [4;36;1mSong Load (86.2ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 101ms (View: 4, DB: 86) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:45:53) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 36ms (View: 28, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:46:13) [GET]
+  [4;35;1mSong Load (73.8ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 90ms (View: 4, DB: 74) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:46:13) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 41ms (View: 30, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-29 21:46:23) [POST]
+  Parameters: {"upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100429-2283-82fgx0-0>}}
+  [4;36;1mSong Load (22.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+  [4;35;1mSong Create (2.5ms)[0m   [0mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Slim Thug, T.I. & Bun B.', '2010-04-30 02:47:56', 'Three Kings', '2010-04-30 02:47:56', 'Ratatat Remixes Mixtape Volume 2', 'http://www.allweapons.net/musicthing/409-Three-Kings.mp3')[0m
+Redirected to http://localhost:3000/songs/upload_form
+Completed in 93334ms (DB: 25) | 302 Found [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:47:57) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/songs/upload_form]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 21:48:02) [GET]
+  [4;36;1mSong Load (1.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 17ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 21:48:02) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:28:25) [GET]
+  [4;35;1mSong Load (14.4ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 314ms (View: 34, DB: 14) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:28:25) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:35:58) [GET]
+  [4;36;1mSong Load (18.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 47ms (View: 18, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:35:58) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 29ms (View: 24, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:48:21) [GET]
+  [4;35;1mSong Load (14.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 48ms (View: 23, DB: 15) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:48:22) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:48:44) [GET]
+  [4;36;1mSong Load (72.3ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 87ms (View: 5, DB: 72) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:48:44) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:49:27) [GET]
+  [4;35;1mSong Load (9.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 25ms (View: 4, DB: 9) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:49:27) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 29ms (View: 21, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:50:34) [GET]
+  [4;36;1mSong Load (11.3ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 27ms (View: 5, DB: 11) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:50:35) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:51:41) [GET]
+  [4;35;1mSong Load (25.3ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 57ms (View: 6, DB: 25) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:51:42) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 54ms (View: 39, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:51:57) [GET]
+  [4;36;1mSong Load (79.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 95ms (View: 4, DB: 80) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:51:57) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 57ms (View: 48, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:52:15) [GET]
+  [4;35;1mSong Load (71.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 86ms (View: 4, DB: 72) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:52:15) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 48ms (View: 45, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:53:37) [GET]
+  [4;36;1mSong Load (25.3ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 76ms (View: 21, DB: 25) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:53:37) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:54:18) [GET]
+  [4;35;1mSong Load (1.2ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 19ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:54:19) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:55:10) [GET]
+  [4;36;1mSong Load (81.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 95ms (View: 5, DB: 81) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:55:10) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 46ms (View: 39, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:59:30) [GET]
+  [4;35;1mSong Load (80.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 94ms (View: 4, DB: 81) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:59:30) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 25ms (View: 21, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-29 23:59:45) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-29 23:59:45) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 23ms (View: 19, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:00:51) [GET]
+  [4;35;1mSong Load (70.2ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 84ms (View: 4, DB: 70) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:00:51) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:01:04) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:01:05) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:01:14) [GET]
+  [4;35;1mSong Load (7.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 31ms (View: 8, DB: 8) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:01:14) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 96ms (View: 86, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:01:26) [GET]
+  [4;36;1mSong Load (75.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 89ms (View: 4, DB: 75) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:01:26) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:02:39) [GET]
+  [4;35;1mSong Load (87.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 100ms (View: 4, DB: 87) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:02:40) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 32ms (View: 27, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:02:51) [GET]
+  [4;36;1mSong Load (1.2ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:02:52) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 23ms (View: 18, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:02:58) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:02:58) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:03:13) [GET]
+  [4;36;1mSong Load (2.5ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 17ms (View: 5, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:03:13) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 29ms (View: 24, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:03:33) [GET]
+  [4;35;1mSong Load (19.2ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 33ms (View: 4, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:03:33) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:03:40) [GET]
+  [4;36;1mSong Load (65.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 90ms (View: 7, DB: 66) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:03:41) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:05:55) [GET]
+  [4;35;1mSong Load (52.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 66ms (View: 4, DB: 53) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:05:55) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 25ms (View: 21, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:06:48) [GET]
+  [4;36;1mSong Load (12.6ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 35ms (View: 13, DB: 13) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:06:49) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:07:06) [GET]
+  [4;35;1mSong Load (17.7ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 31ms (View: 4, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:07:06) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 25ms (View: 17, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:08:51) [GET]
+  [4;36;1mSong Load (81.7ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 97ms (View: 5, DB: 82) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:08:52) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 33ms (View: 21, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:08:59) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 36ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:08:59) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:09:17) [GET]
+  [4;36;1mSong Load (73.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 88ms (View: 4, DB: 73) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:09:17) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:09:32) [GET]
+  [4;35;1mSong Load (77.3ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 92ms (View: 4, DB: 77) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:09:33) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 26ms (View: 21, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:10:16) [GET]
+  [4;36;1mSong Load (72.6ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 87ms (View: 4, DB: 73) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:10:16) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:10:28) [GET]
+  [4;35;1mSong Load (79.3ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 99ms (View: 6, DB: 79) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:10:28) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 34ms (View: 28, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:10:34) [GET]
+  [4;36;1mSong Load (1.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:10:34) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 69ms (View: 58, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:10:42) [GET]
+  [4;35;1mSong Load (36.9ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 53ms (View: 6, DB: 37) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:10:42) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 28ms (View: 24, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:10:47) [GET]
+  [4;36;1mSong Load (2.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 25ms (View: 5, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:10:48) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 41ms (View: 36, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:10:58) [GET]
+  [4;35;1mSong Load (76.3ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 90ms (View: 5, DB: 76) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:10:58) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 24ms (View: 21, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:11:31) [GET]
+  [4;36;1mSong Load (76.6ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 90ms (View: 5, DB: 77) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:11:31) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 17, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:11:55) [GET]
+  [4;35;1mSong Load (1.3ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:11:56) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 100ms (View: 90, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:12:07) [GET]
+  [4;36;1mSong Load (1.3ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:12:07) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:13:32) [GET]
+  [4;35;1mSong Load (73.4ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 105ms (View: 22, DB: 73) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:13:33) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 31ms (View: 26, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:13:48) [GET]
+  [4;36;1mSong Load (93.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 109ms (View: 5, DB: 93) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:13:48) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 94ms (View: 76, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:20:09) [GET]
+  [4;35;1mSong Load (19.6ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 34ms (View: 4, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:20:10) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 21ms (View: 16, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:23:10) [GET]
+  [4;36;1mSong Load (72.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 87ms (View: 5, DB: 72) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:23:10) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 44ms (View: 37, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:23:27) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:23:28) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 56ms (View: 37, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:24:35) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:24:36) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 146ms (View: 137, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:25:09) [GET]
+  [4;35;1mSong Load (1.2ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:25:10) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 37ms (View: 23, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:26:10) [GET]
+  [4;36;1mSong Load (73.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 86ms (View: 5, DB: 73) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:26:11) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 59ms (View: 51, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:28:14) [GET]
+  [4;35;1mSong Load (17.2ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 32ms (View: 6, DB: 17) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:28:15) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 43ms (View: 29, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:28:26) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:28:26) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:29:56) [GET]
+  [4;35;1mSong Load (71.2ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 87ms (View: 5, DB: 71) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:29:57) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 24ms (View: 19, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:30:44) [GET]
+  [4;36;1mSong Load (77.4ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 92ms (View: 5, DB: 77) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:30:44) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 45ms (View: 36, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:30:55) [GET]
+  [4;35;1mSong Load (1.2ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:30:56) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 38ms (View: 32, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:31:49) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:31:50) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 28ms (View: 22, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:32:19) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:32:20) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 147ms (View: 115, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:32:37) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:32:38) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 45ms (View: 39, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:33:04) [GET]
+  [4;35;1mSong Load (1.2ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 21ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:33:05) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 44ms (View: 40, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:33:45) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:33:46) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 47ms (View: 41, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#set_track (for 127.0.0.1 at 2010-04-30 00:34:52) [GET]
+  Parameters: {"id"=>"4"}
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/set_track/4]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:34:52) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:34:52) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:36:15) [GET]
+  [4;36;1mSong Load (1.3ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 16ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:36:15) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:36:31) [GET]
+  [4;35;1mSong Load (62.4ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 77ms (View: 5, DB: 62) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:36:32) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 00:39:46) [GET]
+  [4;36;1mSong Load (23.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 37ms (View: 5, DB: 23) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 00:39:46) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 52ms (View: 45, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:16:39) [GET]
+  [4;36;1mSong Load (17.8ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 191ms (View: 134, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:16:39) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 51ms (View: 41, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:18:25) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:18:25) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:19:28) [GET]
+  [4;36;1mSong Load (1.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:19:28) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 225ms (View: 211, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:19:30) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 17ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:19:30) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:24:24) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 95ms (View: 85, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:24:25) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:24:26) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:24:27) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:25:27) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:25:28) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 34ms (View: 27, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:25:29) [POST]
+Redirected to http://localhost:3000/uploadcontroller/parentRefresh
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/upload/uploadFile]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-30 20:25:29) [GET]
+
+ActionController::RoutingError (No route matches "/uploadcontroller/parentRefresh" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:27:09) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:27:10) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:27:10) [POST]
+Rendering upload/uploadFile
+Completed in 162ms (View: 159, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:27:42) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:27:43) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:27:43) [POST]
+Rendering upload/uploadFile
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:28:35) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:28:35) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 25ms (View: 21, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:28:37) [POST]
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:28:52) [POST]
+Rendering upload/uploadFile
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:29:05) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:29:05) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 53ms (View: 47, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:29:06) [POST]
+Rendering upload/uploadFile
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:29:12) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:29:13) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 25ms (View: 20, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:29:14) [POST]
+Rendering upload/uploadFile
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:29:20) [GET]
+  [4;36;1mSong Load (2.0ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 18ms (View: 5, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:29:21) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:29:22) [POST]
+Rendering upload/uploadFile
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:29:22) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:29:22) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:29:28) [GET]
+  [4;36;1mSong Load (1.6ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 24ms (View: 7, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:29:29) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:29:30) [POST]
+Rendering upload/uploadFile
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:29:30) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 22ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:29:30) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 19ms (View: 13, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:29:56) [GET]
+  [4;36;1mSong Load (1.1ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:29:56) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 8, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:30:13) [POST]
+  Parameters: {"upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100430-774-d9gjml-0>}}
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/ftp.rb:159:in `initialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/ftp.rb:159:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/ftp.rb:159:in `open_socket'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/ftp.rb:175:in `connect'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/ftp.rb:174:in `connect'
+  app/models/data_file.rb:69:in `upload_to_ftp'
+  app/models/data_file.rb:43:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (58.2ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:33:38) [GET]
+  [4;36;1mSong Load (1.2ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 33ms (View: 22, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:33:39) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:33:40) [POST]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/data_file.rb:21:in `save'
+  app/controllers/upload_controller.rb:6:in `uploadFile'
+
+Rendered rescues/_trace (51.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:33:44) [GET]
+  [4;35;1mSong Load (1.1ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:33:45) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:34:30) [POST]
+  Parameters: {"upload"=>{"datafile"=>#<File:/tmp/RackMultipart20100430-774-a7pzu7-0>}}
+  [4;36;1mSong Load (1.3ms)[0m   [0;1mSELECT * FROM "songs" [0m
+  [4;35;1mSong Create (88.3ms)[0m   [0mINSERT INTO "songs" ("artist", "created_at", "title", "updated_at", "album", "filename") VALUES('Broken Bells', '2010-05-01 01:36:45', 'The High Road', '2010-05-01 01:36:45', 'Broken Bells', 'http://www.allweapons.net/musicthing/501-The-High-Road.mp3')[0m
+Rendering upload/uploadFile
+Completed in 135234ms (View: 42, DB: 90) | 200 OK [http://localhost/upload/uploadFile]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:36:45) [GET]
+  [4;36;1mSong Load (4.9ms)[0m   [0;1mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 29ms (View: 12, DB: 5) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:36:46) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-04-30 20:38:13) [GET]
+  [4;35;1mSong Load (1.4ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 64ms (View: 48, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-04-30 20:38:14) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing UploadController#uploadFile (for 127.0.0.1 at 2010-04-30 20:38:15) [POST]
+Rendering upload/uploadFile
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/upload/uploadFile]

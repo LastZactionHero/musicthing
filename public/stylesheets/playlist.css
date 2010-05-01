@@ -1,13 +1,13 @@
 body
 {
-background-color:black;
+background-color:#AAAAAA;
 }
 
 .playlist_box
 {
 	position:absolute;
 	top:50px;
-	left:200px;
+	left:50px;
 	width:400px;
 	height:500px;
 	background-image:url('/images/window.png');
@@ -94,4 +94,15 @@ background-color:black;
 	width:310px;
 	font-family:Verdana;
 	font-size:12px;
+}
+
+.upload_box
+{
+	position:absolute;
+	top:425px;
+	left:500px;
+	height:129px;
+	width:250px;
+	background-image:url('/images/uploadbox.png');
+	overflow:hidden;
 }

@@ -15,15 +15,22 @@ class DataFile < ActiveRecord::Base
   end
   
   def self.save(upload)
-  
+    puts "save()\n";
+	
     # Get filename
 	upload_filename = upload['datafile'].original_filename
+	
+	puts "upload_filename: #{upload_filename}\n";
 	
 	# Replace spaces with '-'
 	upload_filename = upload_filename.gsub( / /, '-' )
 	
+	puts "upload_filename: #{upload_filename}\n";
+	
 	# Prefix song name with database index number
 	upload_filename = Song.all.size.to_s + upload_filename
+	
+	puts "upload_filename: #{upload_filename}\n";
 	
     # Create Tempfile of upload
     tempfile = Tempfile.new( 'music_file_upload' )

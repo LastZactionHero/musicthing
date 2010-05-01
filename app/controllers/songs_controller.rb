@@ -102,5 +102,9 @@ class SongsController < ApplicationController
   def upload
     redirect_to :action => "view_playlist"
   end
-  
+ 
+  def upload_form
+
+  end
+    
 end

@@ -1,0 +1,61 @@
+<body style="background-color:transparent">
+
+<script type="text/javascript">
+
+dot_count = 1;
+dot_max = 3;
+
+function update_processing_div()
+{
+	upload_text = "<br><br>Uploading"
+	for( i = 0; i < dot_count; i++ )
+	{
+		upload_text = upload_text + "."
+	}
+	
+	dot_count = (dot_count + 1) % ( dot_max + 1 );
+	document.getElementById("progress_div").innerHTML = upload_text;
+	
+	setTimeout( 'update_processing_div()', 1000 );
+}
+
+function upload_file()
+{
+	document.getElementById("upload_div").style.visibility = "hidden";
+	document.getElementById("progress_div").style.visibility = "visible";
+	setTimeout( 'update_processing_div()', 1000 );
+	document.getElementById("upload_form").submit();
+}
+
+</script>
+
+<style type="text/css">
+	.upload_box_style
+	{
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:230px;
+	height:119px;
+	color:white; 
+	font-size:25px; 
+	text-align:center;
+	overflow:hidden;
+	}
+</style>
+
+<div id="upload_div" class="upload_box_style">
+<form id="upload_form" action="/upload/uploadFile" enctype="multipart/form-data" method="post" >
+	  <input id="upload_datafile" name="upload[datafile]" size="30" type="file"><br><br>
+	  <a style="color:white" href="javascript:upload_file()">Upload</a>
+</form>
+</div>
+
+<div id="progress_div" class="upload_box_style" style="visibility:hidden; text-align:left;">
+
+</div>
+
+<!--<% form_tag '/upload/uploadFile', :multipart => true do %> 
+	<%= file_field 'upload', 'datafile' %><%= submit_tag "Upload" %>
+<% end %> -->
+</body>
