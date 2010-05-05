@@ -1,6 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
 
   map.root :controller => 'songs', :action => 'view_playlist'
+  map.generate_playlist "/songs/generate_playlist/:id", :controller => "songs", :action => "generate_playlist", :id => :id
+  map.generate_player "/songs/generate_player/:id", :controller => "songs", :action => "generate_player", :id => :id
   map.upload_form "/songs/upload_form/", :controller => "songs", :action => "upload_form"
   map.resources :upload
   #map.upload "/upload/", :controller => "songs", :action => "upload"

@@ -84,14 +84,13 @@ class SongsController < ApplicationController
   end
   
   def view_playlist
-	@songs = Song.all
-	
-	@current_track_filename = ""
-	if session[:current_track] >= 0 and session[:current_track] < @songs.size
-		@current_track_filename = @songs[session[:current_track]].filename
-	end
-	
-	puts "current track: #{@current_track_filename}\n"
+	#@songs = Song.all
+	#@current_track_filename = ""
+	#if session[:current_track] >= 0 and session[:current_track] < @songs.size
+	#	@current_track_filename = @songs[session[:current_track]].filename
+	#end
+	#
+	#puts "current track: #{@current_track_filename}\n"
   end
   
   def set_track
@@ -107,4 +106,31 @@ class SongsController < ApplicationController
 
   end
     
+  def generate_playlist
+  
+	session[:current_track] = params[:id].to_i
+
+	@songs = Song.all
+	
+	@current_track_filename = ""
+	if session[:current_track] >= 0 and session[:current_track] < @songs.size
+		@current_track_filename = @songs[session[:current_track]].filename
+	end
+	
+	puts "current track: #{@current_track_filename}\n"
+  end
+  
+  def generate_player
+	track_idx = params[:id].to_i
+	
+	@songs = Song.all
+	
+	@current_track_filename = ""
+	if track_idx >= 0 and track_idx < @songs.size
+		@current_track_filename = @songs[track_idx].filename
+	end
+	
+	puts "current track: #{@current_track_filename}\n"
+  end
+  
 end

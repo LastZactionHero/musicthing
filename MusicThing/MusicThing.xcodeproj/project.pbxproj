@@ -304,6 +304,8 @@
 		5C00A4EF118A956900B8DABB /* songs_helper_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = songs_helper_test.rb; sourceTree = "<group>"; };
 		5C00A4F0118A956900B8DABB /* upload_helper_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = upload_helper_test.rb; sourceTree = "<group>"; };
 		5C00A4F1118A956900B8DABB /* song_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = song_test.rb; sourceTree = "<group>"; };
+		5C34E0C31191174300295DFE /* generate_player */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate_player; sourceTree = "<group>"; };
+		5CF5F144118BC5E100F08FB8 /* generate_playlist.erb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate_playlist.erb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -1827,6 +1829,8 @@
 				5C00A485118A956800B8DABB /* show.html.erb */,
 				5C00A486118A956800B8DABB /* upload_form.erb */,
 				5C00A487118A956800B8DABB /* view_playlist.erb */,
+				5CF5F144118BC5E100F08FB8 /* generate_playlist.erb */,
+				5C34E0C31191174300295DFE /* generate_player */,
 			);
 			path = songs;
 			sourceTree = "<group>";
