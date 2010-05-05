@@ -13269,3 +13269,23 @@ Processing SongsController#generate_player (for 127.0.0.1 at 2010-05-04 22:28:45
 Rendering template within layouts/songs
 Rendering 
 Completed in 22ms (View: 4, DB: 1) | 200 OK [http://localhost/songs/generate_player/7]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-05-04 22:33:07) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SongsController#upload_form (for 127.0.0.1 at 2010-05-04 22:33:15) [GET]
+Rendering template within layouts/songs
+Rendering songs/upload_form
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/songs/upload_form/]
+
+
+Processing SongsController#generate_playlist (for 127.0.0.1 at 2010-05-04 22:33:16) [GET]
+  Parameters: {"id"=>"0"}
+  [4;35;1mSong Load (1.5ms)[0m   [0mSELECT * FROM "songs" [0m
+Rendering template within layouts/songs
+Rendering songs/generate_playlist
+Completed in 17ms (View: 5, DB: 1) | 200 OK [http://localhost/songs/generate_playlist/0]
