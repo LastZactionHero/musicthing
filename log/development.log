@@ -13289,3 +13289,9 @@ Processing SongsController#generate_playlist (for 127.0.0.1 at 2010-05-04 22:33:
 Rendering template within layouts/songs
 Rendering songs/generate_playlist
 Completed in 17ms (View: 5, DB: 1) | 200 OK [http://localhost/songs/generate_playlist/0]
+
+
+Processing SongsController#view_playlist (for 127.0.0.1 at 2010-05-04 22:59:59) [GET]
+Rendering template within layouts/songs
+Rendering songs/view_playlist
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]

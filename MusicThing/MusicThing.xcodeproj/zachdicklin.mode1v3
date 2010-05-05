@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -264,12 +262,26 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>5C00A2FA118A951400B8DABB</string>
+								<string>5C00A309118A956600B8DABB</string>
+								<string>5C00A472118A956800B8DABB</string>
+								<string>5C00A473118A956800B8DABB</string>
+								<string>5C00A47E118A956800B8DABB</string>
+								<string>5C00A481118A956800B8DABB</string>
+								<string>5C00A488118A956800B8DABB</string>
+								<string>5C00A48B118A956800B8DABB</string>
+								<string>5C00A4BF118A956900B8DABB</string>
+								<string>5C00A4D0118A956900B8DABB</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>21</integer>
+									<integer>13</integer>
+									<integer>11</integer>
+									<integer>4</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -303,12 +315,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MyNewFile14.java</string>
+								<string>generate_player</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -316,7 +330,25 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MyNewFile14.java</string>
+										<string>generate_player</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>5CDA37B6119126DA000CCBFB</string>
+										<key>history</key>
+										<array>
+											<string>5C34E0C4119124D300295DFE</string>
+											<string>5C34E0C5119124D300295DFE</string>
+											<string>5C34E0C6119124D300295DFE</string>
+											<string>5C34E0C7119124D300295DFE</string>
+											<string>5C34E0C8119124D300295DFE</string>
+											<string>5C34E0CB119124D300295DFE</string>
+											<string>5C34E0CC119124D300295DFE</string>
+											<string>5C34E0CD119124D300295DFE</string>
+											<string>5CDA37B4119126DA000CCBFB</string>
+											<string>5CDA37B5119126DA000CCBFB</string>
+											<string>5C34E0CA119124D300295DFE</string>
+										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -327,14 +359,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 433}}</string>
+								<string>{{0, 0}, {1072, 620}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 112 1280 666 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>433pt</string>
+							<string>620pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -347,14 +379,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 438}, {1072, 187}}</string>
+								<string>{{0, 625}, {1072, 0}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 112 1280 666 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>187pt</string>
+							<string>0pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -373,9 +405,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5C34E0BC1191008C00295DFE</string>
+				<string>5CDA37B7119126DA000CCBFB</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5C34E0BD1191008C00295DFE</string>
+				<string>5CDA37B8119126DA000CCBFB</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
